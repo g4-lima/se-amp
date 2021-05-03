@@ -45,3 +45,16 @@ export const Text2 = styled.h2`
 
     color: #00a62f;
 `;
+
+export const AboutUsBox = styled.div`
+    margin: 100px auto;
+
+    width: 84vw;
+    height: 24vh;
+
+    background: #f9f9f9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+`;
+
+export const AboutUsButton = styled.a``;

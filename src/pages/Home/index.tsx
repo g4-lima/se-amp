@@ -4,7 +4,7 @@ import Header from '../../components/Header';
 
 import BgGears from '../../assets/images/gears-cogwheels.jpg';
 
-import { BackgroundImage, TextBox, Text1, Text2 } from './styles';
+import { BackgroundImage, TextBox, Text1, Text2, AboutUsBox } from './styles';
 
 const Home: React.FC = () => {
     return (
@@ -22,6 +22,8 @@ const Home: React.FC = () => {
                     </Text2>
                 </TextBox>
             </BackgroundImage>
+
+            <AboutUsBox />
         </div>
     );
 };

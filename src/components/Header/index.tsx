@@ -1,20 +1,26 @@
 import React from 'react';
 
-import { Conteiner } from './styles';
+import LogoAMP from '../../assets/images/logos/LogoAMP.jpg';
+import LogoSE from '../../assets/images/logos/LogoSE.png';
+
+import { Conteiner, Logo, Links, SearchBar } from './styles';
 
 const Header: React.FC = () => {
     return (
         <Conteiner>
-            <div className="logos" />
-            <div className="links">
+            <Logo>
+                <img src={LogoAMP} alt="Logo AMP" />
+                <img src={LogoSE} alt="Logo SE" />
+            </Logo>
+            <Links>
                 <a href="/">Indústrias</a>
                 <a href="/">Produtos</a>
                 <a href="/">Sobre</a>
                 <a href="/">Contato</a>
-            </div>
-            <div className="search-bar">
+            </Links>
+            <SearchBar>
                 <h3>Pesquisar</h3>
-            </div>
+            </SearchBar>
         </Conteiner>
     );
 };
