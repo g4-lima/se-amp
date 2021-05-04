@@ -14,7 +14,8 @@ const Home: React.FC = () => {
                 <img src={BgGears} alt="Background Engrenagens" />
                 <TextBox>
                     <Text1>
-                        FORNECEMOS PEÇAS E PRODUTOS PARA DIVERSAS INDÚSTRIAS
+                        {`FORNECEMOS PEÇAS E PRODUTOS PARA DIVERSAS
+                        INDÚSTRIAS`}
                     </Text1>
 
                     <Text2>

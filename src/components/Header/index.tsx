@@ -1,6 +1,6 @@
 import React from 'react';
 
-import LogoAMP from '../../assets/images/logos/LogoAMP.jpg';
+import LogoAMP from '../../assets/images/logos/LogoAMP.png';
 import LogoSE from '../../assets/images/logos/LogoSE.png';
 
 import { Conteiner, Logo, Links, SearchBar } from './styles';
