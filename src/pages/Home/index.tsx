@@ -4,7 +4,14 @@ import Header from '../../components/Header';
 
 import BgGears from '../../assets/images/gears-cogwheels.jpg';
 
-import { BackgroundImage, TextBox, Text1, Text2, AboutUsBox } from './styles';
+import {
+    BackgroundImage,
+    TextBox,
+    Text1,
+    Text2,
+    AboutUsBox,
+    AboutUsButton,
+} from './styles';
 
 const Home: React.FC = () => {
     return (
@@ -24,7 +31,17 @@ const Home: React.FC = () => {
                 </TextBox>
             </BackgroundImage>
 
-            <AboutUsBox />
+            <AboutUsBox>
+                <p>
+                    <div>
+                        Há mais de <b>10 anos</b> no mercado. <br />
+                        Proporcionando produtos com o melhor custo benefício.
+                        Parceiros na Alemanha, Holanda, Dinamarca, Suécia,
+                        Brasil, China, entre outros.
+                    </div>
+                </p>
+                <AboutUsButton>SOBRE NÓS</AboutUsButton>
+            </AboutUsBox>
         </div>
     );
 };

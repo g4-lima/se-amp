@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { shade } from 'polished';
 
 export const Container = styled.div``;
 
@@ -50,7 +51,8 @@ export const Text2 = styled.h2`
 `;
 
 export const AboutUsBox = styled.div`
-    margin: 100px auto;
+    margin: 16vh auto;
+    position: relative;
 
     width: 86vw;
     height: 24vh;
@@ -58,6 +60,44 @@ export const AboutUsBox = styled.div`
     background: #f9f9f9;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 4px;
+
+    p {
+        width: 43vw;
+        padding: 2vw;
+        text-align: right;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.2vw;
+        line-height: 4vh;
+        color: #3e3e3e;
+    }
 `;
 
-export const AboutUsButton = styled.a``;
+export const AboutUsButton = styled.a`
+    position: absolute;
+    width: 43vw;
+    height: 24vh;
+    margin-left: 43vw;
+    margin-top: -23.7vh;
+
+    border-radius: 0 4px 4px 0;
+    background: #d2d2d2;
+
+    cursor: pointer;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.6vw;
+    text-align: center;
+    padding-top: 10vh;
+
+    color: #808080;
+
+    &:hover {
+        background: ${shade(0.1, '#d2d2d2')};
+        transition: 180ms;
+        color: #00a62f;
+    }
+`;
