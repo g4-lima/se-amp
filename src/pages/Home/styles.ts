@@ -52,18 +52,22 @@ export const Text2 = styled.h2`
 
 export const AboutUsBox = styled.div`
     margin: 16vh auto;
-    position: relative;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 
     width: 88vw;
-    height: 22vh;
+    height: 21vh;
+`;
 
+export const AboutUsText = styled.div`
     background: #f9f9f9;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 4px;
+    border-radius: 4px 0 0 4px;
+    width: 100%;
 
     p {
-        width: 44vw;
-        padding: 1.6vw;
+        padding: 1.4vw;
         text-align: right;
         font-family: Montserrat;
         font-style: normal;
@@ -75,11 +79,10 @@ export const AboutUsBox = styled.div`
 `;
 
 export const AboutUsButton = styled.a`
-    position: absolute;
-    width: 44vw;
-    height: 22vh;
-    margin-left: 44vw;
-    margin-top: -22vh;
+    width: 100%;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0 4px 4px 0;
 
     border-radius: 0 4px 4px 0;
     background: #d2d2d2;
@@ -89,9 +92,9 @@ export const AboutUsButton = styled.a`
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
-    font-size: 1.6vw;
+    font-size: 1.4vw;
     text-align: center;
-    padding-top: 10vh;
+    padding-top: 9vh;
 
     color: #808080;
 
@@ -103,17 +106,52 @@ export const AboutUsButton = styled.a`
 `;
 
 export const Industries = styled.div`
-    width: 88vw;
+    max-width: 88vw;
     margin: auto;
 
     h1 {
         font-family: Montserrat;
         font-style: normal;
         font-weight: 500;
-        font-size: 40px;
-        line-height: 49px;
+        font-size: 3vw;
         text-align: center;
 
         color: #00a62f;
+
+        margin-bottom: 8vh;
+    }
+`;
+
+export const Collum1 = styled.div`
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 4vw;
+`;
+
+export const IndustryTitle = styled.h2`
+    margin-top: 2vh;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.2vw;
+
+    color: #808080;
+`;
+
+export const CardTitle = styled.div`
+    background: #c4c4c4;
+    border-radius: 4px 4px 0 0;
+    height: 10vh;
+    width: 100%;
+    margin-top: 3vh;
+`;
+
+export const CardImage = styled.div`
+    width: 100%;
+    height: 30vh;
+    margin-top: 10vh;
+
+    img {
+        border-radius: 0 0 4px 4px;
     }
 `;
