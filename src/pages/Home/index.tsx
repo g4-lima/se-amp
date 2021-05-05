@@ -11,6 +11,7 @@ import {
     Text2,
     AboutUsBox,
     AboutUsButton,
+    Industries,
 } from './styles';
 
 const Home: React.FC = () => {
@@ -36,12 +37,17 @@ const Home: React.FC = () => {
                     <div>
                         Há mais de <b>10 anos</b> no mercado. <br />
                         Proporcionando produtos com o melhor custo benefício.
+                        <br />
                         Parceiros na Alemanha, Holanda, Dinamarca, Suécia,
-                        Brasil, China, entre outros.
+                        Brasil, <br /> China, entre outros.
                     </div>
                 </p>
                 <AboutUsButton>SOBRE NÓS</AboutUsButton>
             </AboutUsBox>
+
+            <Industries>
+                <h1>Indústrias</h1>
+            </Industries>
         </div>
     );
 };

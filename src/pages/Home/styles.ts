@@ -54,16 +54,16 @@ export const AboutUsBox = styled.div`
     margin: 16vh auto;
     position: relative;
 
-    width: 86vw;
-    height: 24vh;
+    width: 88vw;
+    height: 22vh;
 
     background: #f9f9f9;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 4px;
 
     p {
-        width: 43vw;
-        padding: 2vw;
+        width: 44vw;
+        padding: 1.6vw;
         text-align: right;
         font-family: Montserrat;
         font-style: normal;
@@ -76,10 +76,10 @@ export const AboutUsBox = styled.div`
 
 export const AboutUsButton = styled.a`
     position: absolute;
-    width: 43vw;
-    height: 24vh;
-    margin-left: 43vw;
-    margin-top: -23.7vh;
+    width: 44vw;
+    height: 22vh;
+    margin-left: 44vw;
+    margin-top: -22vh;
 
     border-radius: 0 4px 4px 0;
     background: #d2d2d2;
@@ -98,6 +98,22 @@ export const AboutUsButton = styled.a`
     &:hover {
         background: ${shade(0.1, '#d2d2d2')};
         transition: 180ms;
+        color: #00a62f;
+    }
+`;
+
+export const Industries = styled.div`
+    width: 88vw;
+    margin: auto;
+
+    h1 {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 49px;
+        text-align: center;
+
         color: #00a62f;
     }
 `;
