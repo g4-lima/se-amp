@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Header from '../../components/Header';
+import Footer from '../../components/Footer';
 
 import BgGears from '../../assets/images/gears-cogwheels.jpg';
 import celulose from '../../assets/images/celulose.png';
@@ -61,23 +62,29 @@ const Home: React.FC = () => {
                 <IndustryTitle>Papel e Celulose</IndustryTitle>
                 <Collum1>
                     <CardTitle>
+                        <h3>Celulose</h3>
                         <CardImage>
                             <img src={celulose} alt="Fabrica Celulose" />
                         </CardImage>
                     </CardTitle>
 
                     <CardTitle>
+                        <h3>Máquina de Papel</h3>
                         <CardImage>
                             <img src={maquinaDePapel} alt="Máquina de Papel" />
                         </CardImage>
                     </CardTitle>
+
                     <CardTitle>
+                        <h3>Conversão</h3>
                         <CardImage>
                             <img src={conversao} alt="Conversão" />
                         </CardImage>
                     </CardTitle>
                 </Collum1>
             </Industries>
+
+            <Footer />
         </div>
     );
 };

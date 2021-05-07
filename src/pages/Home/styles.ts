@@ -139,19 +139,47 @@ export const IndustryTitle = styled.h2`
 `;
 
 export const CardTitle = styled.div`
-    background: #c4c4c4;
+    background: #808080;
     border-radius: 4px 4px 0 0;
     height: 10vh;
     width: 100%;
     margin-top: 3vh;
+
+    cursor: pointer;
+
+    h3 {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.6vw;
+
+        margin-top: 3vh;
+
+        text-align: center;
+
+        color: #f9f9f9;
+    }
+
+    &:hover {
+        background: ${shade(0.2, '#808080')};
+        transition: 180ms;
+    }
 `;
 
 export const CardImage = styled.div`
     width: 100%;
-    height: 30vh;
-    margin-top: 10vh;
+    height: 24vh;
+    margin-top: 2.8vh;
 
     img {
         border-radius: 0 0 4px 4px;
+        width: 100%;
+        height: 100%;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        opacity: 0.9;
+
+        &:hover {
+            opacity: 1;
+        }
     }
 `;
