@@ -2,10 +2,12 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     width: 98.9vw;
-    height: 32vh;
+    height: 24vh;
 
     display: flex;
     flex-direction: column;
+
+    margin-top: 24vh;
 `;
 
 export const Line = styled.div`
@@ -18,7 +20,48 @@ export const Line = styled.div`
 
 export const InfoBox = styled.div`
     width: 100%;
-    height: 32vh;
+    height: 100%;
 
     background: #3e3e3e;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+
+    padding: 0 5.5vw;
+`;
+
+export const Names = styled.div`
+    display: flex;
+    flex-direction: column;
+    margin-top: 7vh;
+
+    p {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.1vw;
+        line-height: 2vw;
+        text-align: left;
+
+        color: #e8e8e8;
+    }
+`;
+
+export const Contacts = styled.div`
+    display: flex;
+    flex-direction: column;
+    margin-top: 6vh;
+
+    p {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.1vw;
+        line-height: 2.5vw;
+        text-align: right;
+
+        color: #e8e8e8;
+    }
 `;

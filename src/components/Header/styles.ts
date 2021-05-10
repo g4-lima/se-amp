@@ -78,3 +78,28 @@ export const SearchBar = styled.div`
         color: #808080;
     }
 `;
+
+export const ChangeLanguage = styled.div`
+    position: absolute;
+
+    display: flex;
+    flex-direction: row;
+
+    width: 5vw;
+
+    right: 5vw;
+    top: 0.8vh;
+`;
+
+export const Flags = styled.a`
+    img {
+        width: 1.8vw;
+        height: 3.2vh;
+
+        cursor: pointer;
+    }
+
+    img + img {
+        margin-left: 0.8vw;
+    }
+`;

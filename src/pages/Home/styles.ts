@@ -122,10 +122,12 @@ export const Industries = styled.div`
     }
 `;
 
-export const Collum1 = styled.div`
+export const Row = styled.div`
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 4vw;
+
+    margin-bottom: 14vh;
 `;
 
 export const IndustryTitle = styled.h2`
@@ -159,17 +161,35 @@ export const CardTitle = styled.div`
 
         color: #f9f9f9;
     }
+`;
+
+export const Card = styled.a`
+    display: flex;
+    flex-direction: column;
+
+    cursor: pointer;
 
     &:hover {
+        img {
+            opacity: 1;
+            transition: 180ms;
+        }
+    }
+
+    &:hover ${CardTitle} {
         background: ${shade(0.2, '#808080')};
         transition: 180ms;
+
+        h3 {
+            font-size: 1.62vw;
+            transition: 200ms;
+        }
     }
 `;
 
 export const CardImage = styled.div`
     width: 100%;
     height: 24vh;
-    margin-top: 2.8vh;
 
     img {
         border-radius: 0 0 4px 4px;
@@ -177,9 +197,5 @@ export const CardImage = styled.div`
         height: 100%;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         opacity: 0.9;
-
-        &:hover {
-            opacity: 1;
-        }
     }
 `;
