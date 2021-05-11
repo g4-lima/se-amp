@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { shade } from 'polished';
 
 export const Conteiner = styled.div`
     position: absolute;
@@ -19,6 +20,8 @@ export const Conteiner = styled.div`
     border-radius: 4px;
 
     justify-content: space-between;
+
+    z-index: 1;
 `;
 
 export const Logo = styled.div`
@@ -59,6 +62,11 @@ export const Links = styled.div`
         font-size: 1vw;
 
         color: #808080;
+
+        &:hover {
+            color: ${shade(0.4, '#808080')};
+            font-size: 1.01vw;
+        }
     }
 `;
 
@@ -93,7 +101,7 @@ export const ChangeLanguage = styled.div`
 
 export const Flags = styled.a`
     img {
-        width: 1.8vw;
+        width: 1.7vw;
         height: 3.2vh;
 
         cursor: pointer;

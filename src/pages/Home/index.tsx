@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
@@ -30,9 +31,9 @@ import {
 
 const Home: React.FC = () => {
     return (
-        <div className="container">
+        <>
+            <Header />
             <BackgroundImage>
-                <Header />
                 <img src={BgGears} alt="Background Engrenagens" />
                 <TextBox>
                     <Text1>
@@ -59,7 +60,7 @@ const Home: React.FC = () => {
                         </div>
                     </p>
                 </AboutUsText>
-                <AboutUsButton>SOBRE NÓS</AboutUsButton>
+                <Link to="/about">SOBRE NÓS</Link>
             </AboutUsBox>
 
             <Industries>
@@ -136,7 +137,7 @@ const Home: React.FC = () => {
             </Industries>
 
             <Footer />
-        </div>
+        </>
     );
 };
 

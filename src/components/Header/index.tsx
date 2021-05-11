@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import LogoAMP from '../../assets/images/logos/LogoAMP.png';
 import LogoSE from '../../assets/images/logos/LogoSE.png';
@@ -17,12 +18,12 @@ import {
 const Header: React.FC = () => {
     return (
         <>
-            <ChangeLanguage>
+            {/* <ChangeLanguage>
                 <Flags>
                     <img src={ptbr} alt="Protugês" />
                     <img src={ing} alt="Inglês" />
                 </Flags>
-            </ChangeLanguage>
+            </ChangeLanguage> */}
             <Conteiner>
                 <Logo>
                     <img src={LogoAMP} alt="Logo AMP" />
@@ -31,7 +32,7 @@ const Header: React.FC = () => {
                 <Links>
                     <a href="/">Indústrias</a>
                     <a href="/">Produtos</a>
-                    <a href="/">Sobre</a>
+                    <Link to="/about">Sobre</Link>
                     <a href="/">Contato</a>
                 </Links>
                 <SearchBar>
