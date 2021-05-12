@@ -5,6 +5,8 @@ import { IoIosArrowBack } from 'react-icons/io';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 
+import abtcp from '../../assets/images/abtcp.png';
+
 import { Container, TopBar, Contents, DescriptionContainer } from './styles';
 
 const About: React.FC = () => {
@@ -51,6 +53,11 @@ const About: React.FC = () => {
                                     representante comercial.
                                 </p>
                             </div>
+                        </div>
+
+                        <div className="abtcp-container">
+                            <img src={abtcp} alt="Feira ABTCP" />
+                            <p>Presente nas últimas 6 ediçoes da ABTCP</p>
                         </div>
                     </DescriptionContainer>
                 </Contents>
