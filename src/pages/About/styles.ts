@@ -8,6 +8,19 @@ export const Container = styled.div`
 
 export const TopBar = styled.div`
     margin-left: 2vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    p {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.2vw;
+
+        color: #808080;
+        margin-left: 1vw;
+    }
 
     button {
         cursor: pointer;
@@ -26,9 +39,11 @@ export const TopBar = styled.div`
 
             color: #808080;
             margin-left: 1vw;
+        }
 
-            &:hover {
-                color: ${shade(0.4, '#808080')};
+        &:hover {
+            p {
+                color: ${shade(0.6, '#808080')};
             }
         }
     }
@@ -56,7 +71,7 @@ export const DescriptionContainer = styled.div`
     display: flex;
     flex-direction: row;
 
-    margin-bottom: 10vh;
+    margin-bottom: 14vh;
 
     .history {
         h3 {
@@ -82,7 +97,7 @@ export const DescriptionContainer = styled.div`
                 font-family: Roboto;
                 font-style: normal;
                 font-weight: normal;
-                font-size: 1.15vw;
+                font-size: 1.2vw;
                 line-height: 1.55vw;
                 text-align: center;
                 margin-bottom: 2vw;
@@ -168,6 +183,8 @@ export const StructureBox = styled.div`
             width: 100%;
             height: 70vh;
             object-fit: cover;
+
+            margin-bottom: 10vh;
         }
 
         .img1 {

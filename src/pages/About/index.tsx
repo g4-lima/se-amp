@@ -34,6 +34,8 @@ const About: React.FC = () => {
                         <IoIosArrowBack size={24} color="#F22020" />
                         <p>Voltar</p>
                     </button>
+                    <p>|</p>
+                    <p>Sobre Nós</p>
                 </TopBar>
                 <Contents>
                     <h1>Trazendo o mundo e o futuro para a América do Sul</h1>
@@ -53,8 +55,8 @@ const About: React.FC = () => {
                                     Investimos nas melhores parcerias, com
                                     fornecedores em países como Alemanha,
                                     Holanda, Dinamarca, Suécia, Brasil, China,
-                                    etc. para garantir qualidade aos nossos
-                                    clientes.
+                                    entre outros. para garantir qualidade aos
+                                    nossos clientes.
                                 </p>
                                 <p>
                                     Enquanto a Sharp-e Ltda é a empresa

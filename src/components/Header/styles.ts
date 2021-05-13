@@ -31,17 +31,13 @@ export const Logo = styled.div`
 
     img {
         max-width: 10.8vw;
-        /* min-width: 24vw; */
         max-height: 12vh;
-        /* min-height: 80px; */
         box-shadow: none;
     }
 
     img + img {
         max-width: 7.2vw;
-        /* min-width: 100px; */
         max-height: 8.2vh;
-        /* min-height: 60px; */
         box-shadow: none;
     }
 `;
@@ -50,7 +46,7 @@ export const Links = styled.div`
     display: flex;
     flex-direction: row;
 
-    margin-left: -26vw;
+    margin-left: -32vw;
 
     a {
         margin-right: 1.8vw;
