@@ -7,6 +7,8 @@ export const Container = styled.div`
 `;
 
 export const TopBar = styled.div`
+    margin-left: 2vw;
+
     button {
         cursor: pointer;
 
@@ -46,7 +48,7 @@ export const Contents = styled.div`
         color: #00a62f;
 
         margin-top: 5vh;
-        margin-bottom: 3vw;
+        margin-bottom: 4.5vw;
     }
 `;
 
@@ -54,12 +56,14 @@ export const DescriptionContainer = styled.div`
     display: flex;
     flex-direction: row;
 
+    margin-bottom: 10vh;
+
     .history {
         h3 {
             font-family: Montserrat;
             font-style: normal;
             font-weight: normal;
-            font-size: 1.7vw;
+            font-size: 1.8vw;
             margin-bottom: 0.7vw;
 
             color: #808080;
@@ -72,14 +76,14 @@ export const DescriptionContainer = styled.div`
             padding: 3vw 5vw;
 
             width: 50vw;
-            height: 56vh;
+            height: 50vh;
 
             p {
                 font-family: Roboto;
                 font-style: normal;
                 font-weight: normal;
-                font-size: 1.1vw;
-                line-height: 2vw;
+                font-size: 1.15vw;
+                line-height: 1.55vw;
                 text-align: center;
                 margin-bottom: 2vw;
 
@@ -97,18 +101,81 @@ export const DescriptionContainer = styled.div`
 
         img {
             width: 25vw;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 4px;
         }
 
         p {
             font-family: Roboto;
             font-style: normal;
             font-weight: normal;
-            font-size: 1vw;
+            font-size: 1.1vw;
             margin-top: 0.5vw;
 
             text-align: center;
 
             color: #f22020;
+        }
+    }
+`;
+
+export const StructureContainer = styled.div`
+    .structure {
+        h3 {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 1.8vw;
+            margin-bottom: 0.7vw;
+
+            color: #808080;
+        }
+    }
+`;
+
+export const StructureBox = styled.div`
+    display: flex;
+    flex-direction: column;
+
+    .sctructure-text {
+        background: #f9f9f9;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 4px 4px 0 0;
+
+        width: 100%;
+        height: 8vh;
+
+        p {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 1.3vw;
+
+            text-align: center;
+
+            color: #808080;
+
+            padding: 1.2vw;
+        }
+    }
+
+    .structure-images {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+        img {
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            width: 100%;
+            height: 70vh;
+            object-fit: cover;
+        }
+
+        .img1 {
+            border-radius: 0 0 0 4px;
+        }
+
+        .img3 {
+            border-radius: 0 0 4px 0;
         }
     }
 `;

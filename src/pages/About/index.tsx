@@ -6,8 +6,18 @@ import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 
 import abtcp from '../../assets/images/abtcp.png';
+import galpao1 from '../../assets/images/galpao1.png';
+import galpao2 from '../../assets/images/galpao2.png';
+import galpao3 from '../../assets/images/galpao3.png';
 
-import { Container, TopBar, Contents, DescriptionContainer } from './styles';
+import {
+    Container,
+    TopBar,
+    Contents,
+    DescriptionContainer,
+    StructureContainer,
+    StructureBox,
+} from './styles';
 
 const About: React.FC = () => {
     const history = useHistory();
@@ -60,6 +70,34 @@ const About: React.FC = () => {
                             <p>Presente nas últimas 6 ediçoes da ABTCP</p>
                         </div>
                     </DescriptionContainer>
+
+                    <StructureContainer>
+                        <div className="structure">
+                            <h3>Nossa Estrutura</h3>
+                        </div>
+                        <StructureBox>
+                            <div className="sctructure-text">
+                                <p>
+                                    Estrutura completa para garantir o cuidado
+                                    apropriado com seus produtos!
+                                </p>
+                            </div>
+
+                            <div className="structure-images">
+                                <img
+                                    src={galpao1}
+                                    alt="Foto Galpão 1"
+                                    className="img1"
+                                />
+                                <img src={galpao2} alt="Foto Galpão 2" />
+                                <img
+                                    src={galpao3}
+                                    alt="Foto Galpão 3"
+                                    className="img3"
+                                />
+                            </div>
+                        </StructureBox>
+                    </StructureContainer>
                 </Contents>
             </Container>
             <Footer />
