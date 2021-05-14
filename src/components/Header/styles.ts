@@ -49,7 +49,7 @@ export const Links = styled.div`
     margin-left: -32vw;
 
     a {
-        margin-right: 1.8vw;
+        margin-right: 2vw;
         text-decoration: none;
 
         font-family: Montserrat;
