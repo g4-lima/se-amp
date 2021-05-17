@@ -73,6 +73,7 @@ export const Contacts = styled.div`
         font-style: normal;
         font-weight: normal;
         font-size: 2.2vw;
+        margin: 0 auto 10vh;
 
         color: #00a62f;
     }
@@ -80,13 +81,15 @@ export const Contacts = styled.div`
     .infos {
         display: flex;
         flex-direction: row;
+        margin-left: 4vw;
 
         p {
             font-family: Montserrat;
             font-style: normal;
             font-weight: normal;
-            font-size: 1.2vw;
+            font-size: 1.3vw;
             margin-left: 2vw;
+            margin-bottom: 3vh;
 
             color: #808080;
         }
@@ -96,9 +99,15 @@ export const Contacts = styled.div`
         font-family: Montserrat;
         font-style: normal;
         font-weight: normal;
-        font-size: 18px;
-        line-height: 22px;
+        font-size: 1.3vw;
+        margin-top: 14vh;
+        margin-left: 4vw;
 
         color: #808080;
     }
+`;
+
+export const Map = styled.div`
+    width: 100%;
+    height: 68vh;
 `;
