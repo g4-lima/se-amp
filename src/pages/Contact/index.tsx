@@ -1,7 +1,8 @@
 import React from 'react';
 import { useHistory } from 'react-router-dom';
-import { IoIosArrowBack, IoMdMail, IoMdCall } from 'react-icons/io';
+import { IoIosArrowBack, IoMdMail, IoMdCall, IoMdLocate } from 'react-icons/io';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
+import { Icon } from 'leaflet';
 
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
@@ -14,7 +15,12 @@ const Contact: React.FC = () => {
     const goBack = () => {
         history.goBack();
     };
-    const position = [51.505, -0.09];
+    const icon = new Icon({
+        iconUrl: 'markerImg',
+        iconSize: [64, 64],
+        iconAnchor: [29, 68],
+        popupAnchor: [8, -60],
+    });
 
     return (
         <>
@@ -50,21 +56,22 @@ const Contact: React.FC = () => {
                             </p>
                         </div>
                     </Contacts>
-                </Content>
 
-                <Map>
-                    <MapContainer
-                        center={[-23.0624507, -47.218688]}
-                        zoom={14}
-                        style={{ width: '100%', height: '100%' }}
-                    >
-                        {/* <Marker position={position}>
-                            <Popup>
-                                A pretty CSS3 popup. <br /> Easily customizable.
-                            </Popup>
-                        </Marker> */}
-                    </MapContainer>
-                </Map>
+                    <Map>
+                        <MapContainer
+                            center={[-22.847094, -47.03992]}
+                            zoom={17}
+                            style={{ width: '100%', height: '100%' }}
+                        >
+                            <TileLayer url="https://a.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+                            <Marker position={[-22.847094, -47.03992]}>
+                                <Popup>
+                                    SE-AMP <br /> Campinas / SP
+                                </Popup>
+                            </Marker>
+                        </MapContainer>
+                    </Map>
+                </Content>
             </Container>
             <Footer />
         </>
