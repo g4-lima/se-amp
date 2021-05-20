@@ -16,23 +16,23 @@ export const BackgroundImage = styled.div`
 export const TextBox = styled.div`
     position: absolute;
 
-    width: 48vw;
-    height: 40vh;
+    width: 52vw;
+    height: 44vh;
     background: rgba(249, 249, 249, 0.8);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
     border-radius: 4px;
 
-    top: 40vh;
+    top: 36vh;
     right: 6vw;
 `;
 
 export const Text1 = styled.h1`
-    font-size: 2.4vw;
+    font-size: 2.8vw;
     font-weight: 500;
-    line-height: 6.8vh;
+    line-height: 7vh;
     text-align: right;
-    padding: 4.8vh 4.4vw;
+    padding: 5.8vh 2.8vw;
 
     color: #3e3e3e;
 `;
@@ -41,11 +41,10 @@ export const Text2 = styled.h2`
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 1.6vw;
-    /* line-height: 29px; */
+    font-size: 1.8vw;
     text-align: center;
     padding: 0 8vw;
-    margin-top: 2.4vh;
+    margin-top: 3.2vh;
 
     color: #00a62f;
 `;

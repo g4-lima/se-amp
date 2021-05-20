@@ -1,11 +1,12 @@
 import React from 'react';
 import { useHistory } from 'react-router-dom';
-import { IoIosArrowBack, IoMdMail, IoMdCall, IoMdLocate } from 'react-icons/io';
+import { IoIosArrowBack, IoMdMail, IoMdCall } from 'react-icons/io';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import { Icon } from 'leaflet';
 
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
+import place from '../../assets/images/icons/place.svg';
 
 import { Container, TopBar, Content, Contacts, Map } from './styles';
 import 'leaflet/dist/leaflet.css';
@@ -16,7 +17,7 @@ const Contact: React.FC = () => {
         history.goBack();
     };
     const icon = new Icon({
-        iconUrl: 'markerImg',
+        iconUrl: place,
         iconSize: [64, 64],
         iconAnchor: [29, 68],
         popupAnchor: [8, -60],
@@ -64,7 +65,10 @@ const Contact: React.FC = () => {
                             style={{ width: '100%', height: '100%' }}
                         >
                             <TileLayer url="https://a.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-                            <Marker position={[-22.847094, -47.03992]}>
+                            <Marker
+                                position={[-22.847094, -47.03992]}
+                                icon={icon}
+                            >
                                 <Popup>
                                     SE-AMP <br /> Campinas / SP
                                 </Popup>

@@ -28,16 +28,17 @@ export const Logo = styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-left: 2vw;
 
     img {
-        max-width: 10.8vw;
-        max-height: 12vh;
+        max-width: 7.2vw;
+        max-height: 8.2vh;
         box-shadow: none;
     }
 
     img + img {
-        max-width: 7.2vw;
-        max-height: 8.2vh;
+        max-width: 10.8vw;
+        max-height: 12vh;
         box-shadow: none;
     }
 `;
@@ -45,8 +46,9 @@ export const Logo = styled.div`
 export const Links = styled.div`
     display: flex;
     flex-direction: row;
+    align-items: center;
 
-    margin-left: -32vw;
+    margin-left: -30vw;
 
     a {
         margin-right: 2vw;
@@ -55,13 +57,14 @@ export const Links = styled.div`
         font-family: Montserrat;
         font-style: normal;
         font-weight: bold;
-        font-size: 1vw;
+        font-size: 1.1vw;
 
         color: #808080;
 
         &:hover {
             color: ${shade(0.4, '#808080')};
-            font-size: 1.01vw;
+            font-size: 1.11vw;
+            font-weight: bold;
         }
     }
 `;
@@ -96,6 +99,8 @@ export const ChangeLanguage = styled.div`
 `;
 
 export const Flags = styled.a`
+    z-index: 1;
+
     img {
         width: 1.7vw;
         height: 3.2vh;
