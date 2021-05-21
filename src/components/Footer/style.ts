@@ -35,13 +35,13 @@ export const InfoBox = styled.div`
 export const Names = styled.div`
     display: flex;
     flex-direction: column;
-    margin-top: 7vh;
+    margin-top: 6vh;
 
     p {
         font-family: Montserrat;
         font-style: normal;
         font-weight: normal;
-        font-size: 1.1vw;
+        font-size: 1vw;
         line-height: 2vw;
         text-align: left;
 

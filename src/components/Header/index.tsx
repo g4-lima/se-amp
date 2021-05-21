@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { IoMdSearch } from 'react-icons/io';
 
 import LogoAMP from '../../assets/images/logos/LogoAMP-removebg.png';
 import LogoSE from '../../assets/images/logos/LogoSE-removebg.png';
@@ -36,7 +37,18 @@ const Header: React.FC = () => {
                     <Link to="/contact">Contato</Link>
                 </Links>
                 <SearchBar>
-                    <h3>Pesquisar</h3>
+                    <form action="/" method="get" className="search-form">
+                        <input
+                            type="text"
+                            id="header-search"
+                            placeholder="Pesquisar"
+                            name="s"
+                            className="search-input"
+                        />
+                        <button type="submit" className="search-button">
+                            <IoMdSearch size={24} color="#808080" />
+                        </button>
+                    </form>
                 </SearchBar>
             </Conteiner>
         </>

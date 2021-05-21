@@ -184,7 +184,7 @@ export const StructureBox = styled.div`
             height: 70vh;
             object-fit: cover;
 
-            margin-bottom: 10vh;
+            margin-bottom: 8vh;
         }
 
         .img1 {

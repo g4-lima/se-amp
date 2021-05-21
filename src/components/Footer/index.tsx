@@ -10,6 +10,7 @@ const Footer: React.FC = () => {
                 <Names>
                     <p>Sharp-e Ltda. - Importação e Exportação</p>
                     <p>AMP AfterMarketPartner - Representante Comercial</p>
+                    <p>Copyright © 2021</p>
                 </Names>
                 <Contacts>
                     <p>amp@aftermarketpartner.com</p>

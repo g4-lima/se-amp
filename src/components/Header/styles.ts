@@ -48,7 +48,7 @@ export const Links = styled.div`
     flex-direction: row;
     align-items: center;
 
-    margin-left: -30vw;
+    margin-left: -28vw;
 
     a {
         margin-right: 2vw;
@@ -70,7 +70,7 @@ export const Links = styled.div`
 `;
 
 export const SearchBar = styled.div`
-    padding: 1.2vw;
+    padding: 0.7vw;
     width: 12vw;
     background: #d2d2d2;
     border-radius: 4px;
@@ -83,6 +83,26 @@ export const SearchBar = styled.div`
         font-size: 0.6vw;
 
         color: #808080;
+    }
+
+    .search-form {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        .search-input {
+            background-color: #d2d2d2;
+            width: 100%;
+        }
+
+        svg {
+            background: #d2d2d2;
+        }
+
+        .search-button {
+            cursor: pointer;
+            background: #d2d2d2;
+        }
     }
 `;
 
