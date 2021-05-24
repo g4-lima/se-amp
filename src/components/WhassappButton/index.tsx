@@ -1,5 +1,6 @@
 import React from 'react';
 
+import Whats from '../../assets/images/icons/whats.png';
 import { Container } from './styles';
 
 const WhatsappButton: React.FC = () => {
@@ -15,6 +16,7 @@ const WhatsappButton: React.FC = () => {
                 onClick={handleWhatsappLink}
                 className="whats-button"
             >
+                <img src={Whats} alt="whatsapp icon" className="icon" />
                 WhatsApp
             </button>
         </Container>

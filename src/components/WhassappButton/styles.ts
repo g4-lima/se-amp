@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     position: fixed;
-    bottom: 10vh;
+    bottom: 6vh;
     right: 6vw;
 
     .whats-button {
@@ -11,10 +11,18 @@ export const Container = styled.div`
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 4px;
         cursor: pointer;
-        width: 8vw;
+        width: 9vw;
         height: 5vh;
+        padding: 1vh;
 
         font-family: 'Montserrat', sans-serif;
         font-weight: 500;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        .icon {
+            width: 2vw;
+        }
     }
 `;
