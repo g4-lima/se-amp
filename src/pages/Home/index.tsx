@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
+import WhatsappButton from '../../components/WhassappButton';
 
 import BgGears from '../../assets/images/gears-cogwheels.jpg';
 import celulose from '../../assets/images/celulose.png';
@@ -135,6 +136,8 @@ const Home: React.FC = () => {
                     </Card>
                 </Row>
             </Industries>
+
+            <WhatsappButton />
 
             <Footer />
         </>
