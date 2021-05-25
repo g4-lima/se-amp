@@ -4,6 +4,7 @@ export const Container = styled.div`
     position: fixed;
     bottom: 2vh;
     right: 5.5vw;
+    z-index: 1;
 
     .whats-button {
         background: rgba(0, 166, 47, 0.8);

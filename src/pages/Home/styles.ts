@@ -227,10 +227,12 @@ export const BoxInfo = styled.div`
 `;
 
 export const Credits = styled.p`
-    font-size: 0.5vw;
+    font-size: 1vw;
     font-weight: 200;
-    text-align: right;
-    padding: 5.8vh 2.8vw;
+    margin-left: 5.5vw;
+    z-index: 1;
+    bottom: -48vh;
 
-    color: #3e3e3e;
+    color: #808080;
+    position: relative;
 `;

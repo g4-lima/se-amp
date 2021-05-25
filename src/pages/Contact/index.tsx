@@ -6,6 +6,7 @@ import { Icon } from 'leaflet';
 
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
+import WhatsappButton from '../../components/WhassappButton';
 import place from '../../assets/images/icons/place.svg';
 
 import { Container, TopBar, Content, Contacts, Map } from './styles';
@@ -26,6 +27,7 @@ const Contact: React.FC = () => {
     return (
         <>
             <Header />
+            <WhatsappButton />
             <Container>
                 <TopBar>
                     <button type="button" onClick={goBack}>

@@ -4,6 +4,7 @@ import { IoIosArrowBack } from 'react-icons/io';
 
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
+import WhatsappButton from '../../components/WhassappButton';
 
 import abtcp from '../../assets/images/abtcp.png';
 import galpao1 from '../../assets/images/galpao1.png';
@@ -28,6 +29,7 @@ const About: React.FC = () => {
     return (
         <>
             <Header />
+            <WhatsappButton />
             <Container>
                 <TopBar>
                     <button type="button" onClick={goBack}>

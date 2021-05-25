@@ -29,6 +29,7 @@ import {
     CardImage,
     IndustryTitle,
     BoxInfo,
+    Credits,
 } from './styles';
 
 const Home: React.FC = () => {
@@ -150,6 +151,11 @@ const Home: React.FC = () => {
             </Industries>
 
             <WhatsappButton />
+
+            <Credits>
+                Background Image: https://www.freepik.com/photos/technology -
+                Technology photo created by onlyyouqj - www.freepik.com
+            </Credits>
 
             <Footer />
         </>
