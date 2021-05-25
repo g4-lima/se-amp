@@ -201,3 +201,36 @@ export const CardImage = styled.div`
         opacity: 0.9;
     }
 `;
+
+export const BoxInfo = styled.div`
+    position: relative;
+    width: 8vw;
+    height: 5vh;
+    z-index: 1;
+    top: -8vh;
+    left: 17vw;
+    border-radius: 4px;
+
+    background: rgba(249, 249, 249, 0.8);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    p {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.2vw;
+        text-align: center;
+        padding: 1vh;
+
+        color: #00a62f;
+    }
+`;
+
+export const Credits = styled.p`
+    font-size: 0.5vw;
+    font-weight: 200;
+    text-align: right;
+    padding: 5.8vh 2.8vw;
+
+    color: #3e3e3e;
+`;

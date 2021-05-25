@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     position: fixed;
-    bottom: 6vh;
-    right: 6vw;
+    bottom: 2vh;
+    right: 5.5vw;
 
     .whats-button {
         background: rgba(0, 166, 47, 0.8);
@@ -17,12 +17,18 @@ export const Container = styled.div`
 
         font-family: 'Montserrat', sans-serif;
         font-weight: 500;
+        font-size: 1vw;
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-around;
+
         .icon {
             width: 2vw;
+        }
+
+        &:hover {
+            background: rgba(0, 166, 47, 0.9);
         }
     }
 `;

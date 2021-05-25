@@ -28,6 +28,7 @@ import {
     CardTitle,
     CardImage,
     IndustryTitle,
+    BoxInfo,
 } from './styles';
 
 const Home: React.FC = () => {
@@ -115,6 +116,9 @@ const Home: React.FC = () => {
                         <CardImage>
                             <img src={mdf} alt="MDF" />
                         </CardImage>
+                        <BoxInfo>
+                            <p>EM BREVE</p>
+                        </BoxInfo>
                     </Card>
 
                     <Card>
@@ -124,6 +128,10 @@ const Home: React.FC = () => {
                         <CardImage>
                             <img src={grafica} alt="Gráfica" />
                         </CardImage>
+
+                        <BoxInfo>
+                            <p>EM BREVE</p>
+                        </BoxInfo>
                     </Card>
 
                     <Card>
@@ -133,6 +141,10 @@ const Home: React.FC = () => {
                         <CardImage>
                             <img src={etanol} alt="Etanol" />
                         </CardImage>
+
+                        <BoxInfo>
+                            <p>EM BREVE</p>
+                        </BoxInfo>
                     </Card>
                 </Row>
             </Industries>
