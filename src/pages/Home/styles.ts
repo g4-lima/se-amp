@@ -199,6 +199,7 @@ export const CardImage = styled.div`
         height: 100%;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         opacity: 0.9;
+        object-fit: cover;
     }
 `;
 
@@ -232,6 +233,7 @@ export const Credits = styled.p`
     margin-left: 5.5vw;
     z-index: 1;
     bottom: -48vh;
+    margin-top: -10vh;
 
     color: #808080;
     position: relative;

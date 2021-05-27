@@ -5,7 +5,7 @@ import { Container } from './styles';
 
 const WhatsappButton: React.FC = () => {
     function handleWhatsappLink() {
-        const url = 'https://web.whatsapp.com/send?phone=55019998363080';
+        const url = 'https://web.whatsapp.com/send?phone=55019983301516';
         window.open(url, '_blank');
     }
 
