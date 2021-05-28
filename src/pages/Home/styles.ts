@@ -10,6 +10,7 @@ export const BackgroundImage = styled.div`
         width: 98.9vw;
         height: 100vh;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        transform: matrix(-1, 0, 0, 1, 0, 0);
     }
 `;
 
