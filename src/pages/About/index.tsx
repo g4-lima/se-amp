@@ -7,9 +7,9 @@ import Footer from '../../components/Footer';
 import WhatsappButton from '../../components/WhassappButton';
 
 import abtcp from '../../assets/images/abtcp.png';
-import galpao1 from '../../assets/images/galpao1.png';
-import galpao2 from '../../assets/images/galpao2.png';
-import galpao3 from '../../assets/images/galpao3.png';
+import galpao1 from '../../assets/images/galpao1.jpg';
+import galpao2 from '../../assets/images/galpao2.jpg';
+import galpao3 from '../../assets/images/galpao3.jpg';
 
 import {
     Container,

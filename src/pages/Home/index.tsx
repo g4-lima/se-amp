@@ -6,13 +6,13 @@ import Footer from '../../components/Footer';
 import WhatsappButton from '../../components/WhassappButton';
 
 import BgGears from '../../assets/images/gears-cogwheels.jpg';
-import celulose from '../../assets/images/celulose.png';
-import maquinaDePapel from '../../assets/images/maquinaDePapel.png';
-import conversao from '../../assets/images/conversao.png';
-import biomassa from '../../assets/images/biomassa.png';
-import mdf from '../../assets/images/mdf.png';
-import grafica from '../../assets/images/grafica.png';
-import etanol from '../../assets/images/etanol.png';
+import celulose from '../../assets/images/celulose.jpg';
+import maquinaDePapel from '../../assets/images/maquinaDePapel.jpg';
+import conversao from '../../assets/images/conversao.jpg';
+import biomassa from '../../assets/images/biomassa.jpg';
+import mdf from '../../assets/images/mdf.jpg';
+import grafica from '../../assets/images/grafica.jpg';
+import etanol from '../../assets/images/etanol.jpg';
 
 import {
     BackgroundImage,
@@ -21,7 +21,6 @@ import {
     Text2,
     AboutUsBox,
     AboutUsText,
-    AboutUsButton,
     Industries,
     Row,
     Card,

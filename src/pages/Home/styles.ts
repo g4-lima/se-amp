@@ -105,8 +105,6 @@ export const AboutUsText = styled.div`
     }
 `;
 
-export const AboutUsButton = styled.a``;
-
 export const Industries = styled.div`
     max-width: 88vw;
     margin: auto;
@@ -233,7 +231,7 @@ export const Credits = styled.p`
     margin-left: 5.5vw;
     z-index: 1;
     bottom: -48vh;
-    margin-top: -10vh;
+    margin-top: -15vh;
 
     color: #808080;
     position: relative;
