@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     width: 88vw;
-    margin: 20vh auto;
+    margin: 23vh auto;
 `;
 
 export const LeftList = styled.div`
