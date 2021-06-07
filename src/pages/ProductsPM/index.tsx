@@ -50,6 +50,16 @@ const ProductsPM: React.FC = () => {
                             <Link to="/productsPM" className="card" />
                         </ProductsCard>
                     </ProductsGroup>
+
+                    <ProductsGroup>
+                        <h2>Seção de Prensa e Secagem</h2>
+                        <ProductsCard>
+                            <Link to="/productsPM" className="card" />
+                            <Link to="/productsPM" className="card" />
+                            <Link to="/productsPM" className="card" />
+                            <Link to="/productsPM" className="card" />
+                        </ProductsCard>
+                    </ProductsGroup>
                 </Content>
             </Container>
             <Footer />
