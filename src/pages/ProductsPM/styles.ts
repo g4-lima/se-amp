@@ -64,12 +64,16 @@ export const ProductsGroup = styled.div`
 
         color: #00a62f;
     }
+
+    & + & {
+        margin-top: 12vh;
+    }
 `;
 
 export const ProductsCard = styled.div`
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 1.6vw;
+    grid-gap: 1vw;
 
     margin-top: 3vh;
 
@@ -80,5 +84,33 @@ export const ProductsCard = styled.div`
         background: #f9f9f9;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 4px;
+        text-decoration: none;
+
+        .card-title {
+            width: 100%;
+            height: 35%;
+            background: #808080;
+            border-radius: 4px 4px 0px 0px;
+
+            h3 {
+                font-family: Montserrat;
+                font-weight: 500;
+                font-size: 1.4vw;
+                text-align: center;
+                padding: 1.2vw;
+
+                color: #f9f9f9;
+            }
+        }
+
+        &:hover {
+            background: #808080;
+            transition: 400ms;
+
+            h3 {
+                font-size: 1.5vw;
+                transition: 200ms;
+            }
+        }
     }
 `;

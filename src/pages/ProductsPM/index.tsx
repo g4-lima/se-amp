@@ -5,6 +5,8 @@ import { Link } from 'react-router-dom';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 
+import pulper from '../../assets/images/PM/pulper.png';
+
 import {
     Container,
     LeftList,
@@ -33,11 +35,32 @@ const ProductsPM: React.FC = () => {
                     <ProductsGroup>
                         <h2>Preparo de Massa</h2>
                         <ProductsCard>
-                            <Link to="/productsPM" className="card" />
-                            <Link to="/productsPM" className="card" />
-                            <Link to="/productsPM" className="card" />
-                            <Link to="/productsPM" className="card" />
-                            <Link to="/productsPM" className="card" />
+                            <Link to="/productsPM" className="card">
+                                <div className="card-title">
+                                    <h3>Pulper</h3>
+                                </div>
+                                <img src={pulper} alt="pulper" />
+                            </Link>
+                            <Link to="/productsPM" className="card">
+                                <div className="card-title">
+                                    <h3>Cleaner</h3>
+                                </div>
+                            </Link>
+                            <Link to="/productsPM" className="card">
+                                <div className="card-title">
+                                    <h3>Depuração</h3>
+                                </div>
+                            </Link>
+                            <Link to="/productsPM" className="card">
+                                <div className="card-title">
+                                    <h3>Refinadores</h3>
+                                </div>
+                            </Link>
+                            <Link to="/productsPM" className="card">
+                                <div className="card-title">
+                                    <h3>Telas Inox</h3>
+                                </div>
+                            </Link>
                         </ProductsCard>
                     </ProductsGroup>
 
