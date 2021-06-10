@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 
+import { ListPMProducts } from './Data';
 import pulper from '../../assets/images/PM/pulper.png';
 
 import {
@@ -33,6 +34,9 @@ const ProductsPM: React.FC = () => {
                     </PageBar>
 
                     <ProductsGroup>
+                        {ListPMProducts.map(product =>
+                            console.log(product.name),
+                        )}
                         <h2>Preparo de Massa</h2>
                         <ProductsCard>
                             <Link to="/productsPM" className="card">

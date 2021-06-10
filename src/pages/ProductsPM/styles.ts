@@ -111,6 +111,17 @@ export const ProductsCard = styled.div`
                 font-size: 1.5vw;
                 transition: 200ms;
             }
+
+            img {
+                opacity: 1.5;
+            }
+        }
+
+        img {
+            display: block;
+            margin-right: auto;
+            margin-left: auto;
+            opacity: 0.9;
         }
     }
 `;
