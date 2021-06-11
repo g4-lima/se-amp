@@ -60,7 +60,7 @@ export const ProductsGroup = styled.div`
         font-family: Montserrat;
         font-style: normal;
         font-weight: bold;
-        font-size: 2vw;
+        font-size: 1.8vw;
 
         color: #00a62f;
     }
@@ -91,13 +91,14 @@ export const ProductsCard = styled.div`
             height: 35%;
             background: #808080;
             border-radius: 4px 4px 0px 0px;
+            display: inline-block;
 
             h3 {
                 font-family: Montserrat;
                 font-weight: 500;
-                font-size: 1.4vw;
-                text-align: center;
-                padding: 1.2vw;
+                font-size: 1.3vw;
+                display: inline-block;
+                vertical-align: middle;
 
                 color: #f9f9f9;
             }
@@ -114,6 +115,7 @@ export const ProductsCard = styled.div`
 
             img {
                 opacity: 1.5;
+                width: 80%;
             }
         }
 
@@ -122,6 +124,7 @@ export const ProductsCard = styled.div`
             margin-right: auto;
             margin-left: auto;
             opacity: 0.9;
+            width: 75%;
         }
     }
 `;

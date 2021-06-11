@@ -33,60 +33,25 @@ const ProductsPM: React.FC = () => {
                         <p>Máquina de Papel</p>
                     </PageBar>
 
-                    <ProductsGroup>
-                        {ListPMProducts.map(product =>
-                            console.log(product.name),
-                        )}
-                        <h2>Preparo de Massa</h2>
-                        <ProductsCard>
-                            <Link to="/productsPM" className="card">
-                                <div className="card-title">
-                                    <h3>Pulper</h3>
-                                </div>
-                                <img src={pulper} alt="pulper" />
-                            </Link>
-                            <Link to="/productsPM" className="card">
-                                <div className="card-title">
-                                    <h3>Cleaner</h3>
-                                </div>
-                            </Link>
-                            <Link to="/productsPM" className="card">
-                                <div className="card-title">
-                                    <h3>Depuração</h3>
-                                </div>
-                            </Link>
-                            <Link to="/productsPM" className="card">
-                                <div className="card-title">
-                                    <h3>Refinadores</h3>
-                                </div>
-                            </Link>
-                            <Link to="/productsPM" className="card">
-                                <div className="card-title">
-                                    <h3>Telas Inox</h3>
-                                </div>
-                            </Link>
-                        </ProductsCard>
-                    </ProductsGroup>
-
-                    <ProductsGroup>
-                        <h2>Seção de Formação</h2>
-                        <ProductsCard>
-                            <Link to="/productsPM" className="card" />
-                            <Link to="/productsPM" className="card" />
-                            <Link to="/productsPM" className="card" />
-                            <Link to="/productsPM" className="card" />
-                        </ProductsCard>
-                    </ProductsGroup>
-
-                    <ProductsGroup>
-                        <h2>Seção de Prensa e Secagem</h2>
-                        <ProductsCard>
-                            <Link to="/productsPM" className="card" />
-                            <Link to="/productsPM" className="card" />
-                            <Link to="/productsPM" className="card" />
-                            <Link to="/productsPM" className="card" />
-                        </ProductsCard>
-                    </ProductsGroup>
+                    {ListPMProducts.map(section => (
+                        <ProductsGroup>
+                            <h2 key={section.id}>{section.name}</h2>
+                            <ProductsCard>
+                                {section.products.map(product => (
+                                    <Link
+                                        to="/productsPM"
+                                        className="card"
+                                        key={product.id}
+                                    >
+                                        <div className="card-title">
+                                            <h3>{product.name}</h3>
+                                        </div>
+                                        <img src={pulper} alt="pulper" />
+                                    </Link>
+                                ))}
+                            </ProductsCard>
+                        </ProductsGroup>
+                    ))}
                 </Content>
             </Container>
             <Footer />
