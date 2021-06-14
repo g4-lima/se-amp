@@ -99,6 +99,7 @@ export const ProductsCard = styled.div`
                 font-family: Montserrat;
                 font-weight: 500;
                 font-size: 1.3vw;
+                line-height: 1.6vw;
                 display: inline-block;
                 vertical-align: middle;
                 text-align: center;
@@ -114,6 +115,7 @@ export const ProductsCard = styled.div`
             h3 {
                 font-size: 1.35vw;
                 transition: 200ms;
+                line-height: 1.6vw;
             }
 
             img {
