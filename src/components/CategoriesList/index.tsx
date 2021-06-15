@@ -7,15 +7,8 @@ interface IList {
     name: string;
     id: number;
 }
-}
 
 const CategoriesList: React.FC = () => {
-    const List = ( ListPMProducts:IList ) => (
-        <ul>
-
-        </ul>
-    );
-
     return (
         <Container>
             <h1>Papel e Celulose</h1>
