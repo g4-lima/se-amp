@@ -7,15 +7,6 @@ export const Container = styled.div`
     flex-direction: row;
 `;
 
-export const LeftList = styled.div`
-    background: #f9f9f9;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 4px;
-
-    width: 18.5vw;
-    height: 120vh;
-`;
-
 export const Content = styled.div`
     display: flex;
     flex-direction: column;
@@ -59,7 +50,7 @@ export const ProductsGroup = styled.div`
     h2 {
         font-family: Montserrat;
         font-style: normal;
-        font-weight: bold;
+        font-weight: 500;
         font-size: 1.8vw;
 
         color: #00a62f;

@@ -4,13 +4,13 @@ import { IoIosArrowForward } from 'react-icons/io';
 import { Link } from 'react-router-dom';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
+import CategoriesList from '../../components/CategoriesList';
 
 import { ListPMProducts } from './Data';
 import pulper from '../../assets/images/PM/pulper.png';
 
 import {
     Container,
-    LeftList,
     Content,
     PageBar,
     ProductsGroup,
@@ -22,10 +22,7 @@ const ProductsPM: React.FC = () => {
         <>
             <Header />
             <Container>
-                <LeftList>
-                    <p>Papel e Celulose</p>
-                    <p>Máquina de Papel</p>
-                </LeftList>
+                <CategoriesList />
                 <Content>
                     <PageBar>
                         <p>Papel e Celulose</p>
