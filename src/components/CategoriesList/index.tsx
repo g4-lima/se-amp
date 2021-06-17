@@ -1,18 +1,28 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import { Container } from './styles';
-import { ListPMProducts } from '../../pages/ProductsPM/Data';
-
-interface IList {
-    name: string;
-    id: number;
-}
+import { List } from './data';
 
 const CategoriesList: React.FC = () => {
+    const [show, setShow] = useState(false);
+
     return (
         <Container>
-            <h1>Papel e Celulose</h1>
-            <h1>Maquina de Papel</h1>
+            {List.map(item => (
+                <h1>
+                    {item.category}
+                    {item.sections.map(section => (
+                        <button type="button" onClick={() => setShow(!show)}>
+                            {section.name}
+                            {show
+                                ? section.products.map(product => (
+                                      <p>{product.name}</p>
+                                  ))
+                                : null}
+                        </button>
+                    ))}
+                </h1>
+            ))}
         </Container>
     );
 };

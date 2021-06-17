@@ -7,4 +7,8 @@ export const Container = styled.div`
 
     width: 18.5vw;
     height: 120vh;
+
+    .hide {
+        display: none;
+    }
 `;
