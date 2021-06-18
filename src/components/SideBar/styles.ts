@@ -26,6 +26,10 @@ export const Level1 = styled.p`
         align-items: center;
         margin-bottom: 2vh;
     }
+
+    svg {
+        margin-right: 0.4vw;
+    }
 `;
 
 export const Level2 = styled.button`

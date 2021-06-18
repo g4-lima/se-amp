@@ -69,7 +69,7 @@ export const ProductsCard = styled.div`
     margin-top: 3vh;
 
     .card {
-        width: 12vw;
+        width: 12.6vw;
         height: 25vh;
 
         background: #f9f9f9;
@@ -111,7 +111,7 @@ export const ProductsCard = styled.div`
 
             img {
                 opacity: 1.5;
-                width: 80%;
+                width: 78%;
             }
         }
 
