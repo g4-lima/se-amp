@@ -4,7 +4,8 @@ import { IoIosArrowForward } from 'react-icons/io';
 import { Link } from 'react-router-dom';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
-import CategoriesList from '../../components/CategoriesList';
+import SideBar from '../../components/SideBar';
+import WhatsappButton from '../../components/WhatssappButton';
 
 import { ListPMProducts } from './Data';
 import pulper from '../../assets/images/PM/pulper.png';
@@ -21,8 +22,9 @@ const ProductsPM: React.FC = () => {
     return (
         <>
             <Header />
+            <WhatsappButton />
             <Container>
-                <CategoriesList />
+                <SideBar />
                 <Content>
                     <PageBar>
                         <p>Papel e Celulose</p>

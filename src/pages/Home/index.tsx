@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
-import WhatsappButton from '../../components/WhassappButton';
+import WhatsappButton from '../../components/WhatssappButton';
 
 import BgGears from '../../assets/images/gears-cogwheels.jpg';
 import celulose from '../../assets/images/celulose.jpg';

@@ -6,7 +6,7 @@ import { Icon } from 'leaflet';
 
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
-import WhatsappButton from '../../components/WhassappButton';
+import WhatsappButton from '../../components/WhatssappButton';
 import place from '../../assets/images/icons/place.svg';
 
 import { Container, TopBar, Content, Contacts, Map } from './styles';

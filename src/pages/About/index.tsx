@@ -4,7 +4,7 @@ import { IoIosArrowBack } from 'react-icons/io';
 
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
-import WhatsappButton from '../../components/WhassappButton';
+import WhatsappButton from '../../components/WhatssappButton';
 
 import abtcp from '../../assets/images/abtcp.png';
 import galpao1 from '../../assets/images/galpao1.jpg';
