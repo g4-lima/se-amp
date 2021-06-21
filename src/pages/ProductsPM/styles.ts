@@ -69,7 +69,7 @@ export const ProductsCard = styled.div`
     margin-top: 3vh;
 
     .card {
-        width: 12.6vw;
+        width: 12.4vw;
         height: 25vh;
 
         background: #f9f9f9;

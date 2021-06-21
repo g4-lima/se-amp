@@ -17,8 +17,9 @@ const SideBar: React.FC = () => {
                     </div>
                     {item.sections.map(section => (
                         <Level2
-                            type="button"
-                            onClick={() => setShow(section.id)}
+                            onClick={() =>
+                                setShow(section.id !== show ? section.id : 0)
+                            }
                         >
                             <div className="line2">
                                 {section.id === show ? (
