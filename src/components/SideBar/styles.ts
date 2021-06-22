@@ -6,7 +6,7 @@ export const Container = styled.div`
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 4px;
 
-    width: 20vw;
+    width: 21vw;
     height: 148vh;
 `;
 
@@ -34,29 +34,20 @@ export const Level1 = styled.p`
     }
 `;
 
-export const Level2 = styled.ul`
+export const Level2 = styled.p`
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 1.2vw;
     text-align: left;
-    margin-bottom: 3vh;
-    margin-left: 1vw;
+    margin-bottom: 5vh;
+    margin-left: 1.5vw;
     cursor: pointer;
 
     color: #808080;
     background-color: #f9f9f9;
 
     p {
-        font-size: 1.1vw;
-        line-height: 2.4vh;
-        margin-left: 1.8vw;
-        margin-top: 1vh;
-        cursor: pointer;
-
-        &:hover {
-            text-decoration: underline;
-        }
     }
 
     svg {
@@ -71,5 +62,18 @@ export const Level2 = styled.ul`
 
     &:hover {
         color: ${shade(0.5, '#808080')};
+    }
+`;
+
+export const Level3 = styled.p`
+    font-size: 1.1vw;
+    line-height: 4vh;
+    margin-left: 3.8vw;
+    margin-top: -2vh;
+    cursor: pointer;
+    margin-bottom: 2vh;
+
+    &:hover {
+        text-decoration: underline;
     }
 `;
