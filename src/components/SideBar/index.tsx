@@ -36,7 +36,7 @@ const SideBar: React.FC = () => {
                                             color="#F22020"
                                         />
                                     )}
-                                    {section.name}
+                                    <p>{section.name}</p>
                                 </div>
                             </Level2>
 

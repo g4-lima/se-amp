@@ -1,10 +1,20 @@
+/* eslint-disable @typescript-eslint/no-var-requires */
+/* eslint-disable global-require */
 export const ListPMProducts = [
     {
         name: 'Preparo de Massa',
         id: 1,
         products: [
-            { id: 1, name: 'Pulper' },
-            { id: 2, name: 'Cleaners' },
+            {
+                id: 1,
+                name: 'Pulper',
+                img: require('../../assets/images/PM/pulper.png').default,
+            },
+            {
+                id: 2,
+                name: 'Cleaners',
+                img: require('../../assets/images/PM/cleaner.png').default,
+            },
             { id: 3, name: 'Refinadores' },
             { id: 4, name: 'Depuração' },
             { id: 5, name: 'Telas Inox' },

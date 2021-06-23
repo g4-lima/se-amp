@@ -45,7 +45,10 @@ const ProductsPM: React.FC = () => {
                                         <div className="card-title">
                                             <h3>{product.name}</h3>
                                         </div>
-                                        <img src={pulper} alt="pulper" />
+                                        <img
+                                            src={product.img}
+                                            alt={product.name}
+                                        />
                                     </Link>
                                 ))}
                             </ProductsCard>

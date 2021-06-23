@@ -69,8 +69,8 @@ export const ProductsCard = styled.div`
     margin-top: 3vh;
 
     .card {
-        width: 12.4vw;
-        height: 25vh;
+        width: 12.3vw;
+        height: 168px;
 
         background: #f9f9f9;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -111,7 +111,7 @@ export const ProductsCard = styled.div`
 
             img {
                 opacity: 1.5;
-                width: 78%;
+                width: 98%;
             }
         }
 
@@ -120,7 +120,7 @@ export const ProductsCard = styled.div`
             margin-right: auto;
             margin-left: auto;
             opacity: 0.9;
-            width: 75%;
+            width: 95%;
         }
     }
 `;

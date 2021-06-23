@@ -35,19 +35,19 @@ export const Level1 = styled.p`
 `;
 
 export const Level2 = styled.p`
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.2vw;
-    text-align: left;
-    margin-bottom: 5vh;
-    margin-left: 1.5vw;
-    cursor: pointer;
-
     color: #808080;
     background-color: #f9f9f9;
+    margin-left: 1.5vw;
+    margin-top: 3vh;
 
     p {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.2vw;
+        text-align: left;
+
+        cursor: pointer;
     }
 
     svg {
@@ -66,14 +66,16 @@ export const Level2 = styled.p`
 `;
 
 export const Level3 = styled.p`
-    font-size: 1.1vw;
-    line-height: 4vh;
-    margin-left: 3.8vw;
-    margin-top: -2vh;
-    cursor: pointer;
-    margin-bottom: 2vh;
+    margin-top: 1vh;
+    p {
+        font-size: 1.1vw;
+        line-height: 4vh;
+        margin-left: 3.8vw;
+        cursor: pointer;
 
-    &:hover {
-        text-decoration: underline;
+        &:hover {
+            text-decoration: underline;
+            color: ${shade(0.5, '#808080')};
+        }
     }
 `;
