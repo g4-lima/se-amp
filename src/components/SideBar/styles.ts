@@ -7,7 +7,7 @@ export const Container = styled.div`
     border-radius: 4px;
 
     width: 21vw;
-    height: 148vh;
+    height: 80vh;
 `;
 
 export const Level1 = styled.p`

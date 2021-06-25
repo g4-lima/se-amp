@@ -123,24 +123,6 @@ export const Industries = styled.div`
     }
 `;
 
-export const Row = styled.div`
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 4vw;
-
-    margin-bottom: 14vh;
-`;
-
-export const IndustryTitle = styled.h2`
-    margin-top: 2vh;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 2.2vw;
-
-    color: #808080;
-`;
-
 export const CardTitle = styled.div`
     background: #808080;
     border-radius: 4px 4px 0 0;
@@ -162,6 +144,49 @@ export const CardTitle = styled.div`
 
         color: #f9f9f9;
     }
+`;
+
+export const Row = styled.div`
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 4vw;
+
+    margin-bottom: 14vh;
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+
+        cursor: pointer;
+
+        &:hover {
+            img {
+                opacity: 1;
+                transition: 180ms;
+            }
+        }
+
+        &:hover ${CardTitle} {
+            background: ${shade(0.2, '#808080')};
+            transition: 180ms;
+
+            h3 {
+                font-size: 1.62vw;
+                transition: 200ms;
+            }
+        }
+    }
+`;
+
+export const IndustryTitle = styled.h2`
+    margin-top: 2vh;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.2vw;
+
+    color: #808080;
 `;
 
 export const Card = styled.a`

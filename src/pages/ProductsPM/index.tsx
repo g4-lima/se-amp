@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { IoIosArrowForward } from 'react-icons/io';
 
 import { Link } from 'react-router-dom';
@@ -8,7 +8,6 @@ import SideBar from '../../components/SideBar';
 import WhatsappButton from '../../components/WhatssappButton';
 
 import { ListPMProducts } from './Data';
-import pulper from '../../assets/images/PM/pulper.png';
 
 import {
     Container,
@@ -19,6 +18,10 @@ import {
 } from './styles';
 
 const ProductsPM: React.FC = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <>
             <Header />

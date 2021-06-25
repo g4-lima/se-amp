@@ -70,7 +70,9 @@ export const ProductsCard = styled.div`
 
     .card {
         width: 12.3vw;
-        height: 168px;
+        height: 25.2vh;
+        /* min-height: 150px;
+        max-height: 170px; */
 
         background: #f9f9f9;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -99,6 +101,18 @@ export const ProductsCard = styled.div`
             }
         }
 
+        img {
+            display: block;
+            margin-top: 0.4vh;
+            margin-right: auto;
+            margin-left: auto;
+            opacity: 0.8;
+            width: 23vh;
+            max-width: 180px;
+
+            transition: width 200ms;
+        }
+
         &:hover {
             background: #808080;
             transition: 400ms;
@@ -110,17 +124,9 @@ export const ProductsCard = styled.div`
             }
 
             img {
-                opacity: 1.5;
-                width: 98%;
+                opacity: 1;
+                width: 23.5vh;
             }
-        }
-
-        img {
-            display: block;
-            margin-right: auto;
-            margin-left: auto;
-            opacity: 0.9;
-            width: 95%;
         }
     }
 `;

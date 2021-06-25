@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 import Header from '../../components/Header';
@@ -77,14 +77,14 @@ const Home: React.FC = () => {
                             <img src={celulose} alt="Fabrica Celulose" />
                         </CardImage>
                     </Card>
-                    <Card>
+                    <Link to="productsPM" className="card">
                         <CardTitle>
                             <h3>Máquina de Papel</h3>
                         </CardTitle>
                         <CardImage>
                             <img src={maquinaDePapel} alt="Máquina de Papel" />
                         </CardImage>
-                    </Card>
+                    </Link>
                     <Card>
                         <CardTitle>
                             <h3>Conversão</h3>
