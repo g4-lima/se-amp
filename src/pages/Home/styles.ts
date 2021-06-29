@@ -7,7 +7,7 @@ export const BackgroundImage = styled.div`
     position: relative;
 
     img {
-        width: 99.8%;
+        width: 99.9%;
         height: 100vh;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         transform: matrix(-1, 0, 0, 1, 0, 0);
@@ -252,7 +252,7 @@ export const BoxInfo = styled.div`
 `;
 
 export const Credits = styled.p`
-    font-size: 1vw;
+    font-size: 0.8vw;
     font-weight: 200;
     margin-left: 5.5vw;
     z-index: 1;

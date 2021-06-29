@@ -6,7 +6,7 @@ export const Container = styled.div`
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 4px;
 
-    width: 21vw;
+    width: 21.5vw;
     height: 80vh;
 `;
 
@@ -15,9 +15,9 @@ export const Level1 = styled.p`
     font-style: normal;
     font-weight: normal;
     font-size: 1.4vw;
-    margin-left: 0.2vw;
+    margin-left: 0.5vw;
     margin-right: 0.1vw;
-    margin-top: 1vh;
+    margin-top: 1.5vh;
     cursor: pointer;
 
     color: #808080;

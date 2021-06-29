@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { Link } from 'react-router-dom';
 
 import Header from '../../components/Header';
@@ -13,6 +13,8 @@ import biomassa from '../../assets/images/biomassa.jpg';
 import mdf from '../../assets/images/mdf.jpg';
 import grafica from '../../assets/images/grafica.jpg';
 import etanol from '../../assets/images/etanol.jpg';
+import plastico from '../../assets/images/plastico.jpg';
+import pellets from '../../assets/images/pellets.jpg';
 
 import {
     BackgroundImage,
@@ -99,16 +101,33 @@ const Home: React.FC = () => {
                 <Row>
                     <Card>
                         <CardTitle>
-                            <h3>Peças Para Picadores</h3>
+                            <h3>Cavacos de Madeira</h3>
                         </CardTitle>
                         <CardImage>
                             <img src={biomassa} alt="Peças para picador" />
+                        </CardImage>
+                    </Card>
+                    <Card>
+                        <CardTitle>
+                            <h3>Pellets</h3>
+                        </CardTitle>
+                        <CardImage>
+                            <img src={pellets} alt="Pellets" />
                         </CardImage>
                     </Card>
                 </Row>
 
                 <IndustryTitle>Outras Indústrias</IndustryTitle>
                 <Row>
+                    <Card>
+                        <CardTitle>
+                            <h3>Reciclagem de Plástico</h3>
+                        </CardTitle>
+                        <CardImage>
+                            <img src={plastico} alt="Plástico" />
+                        </CardImage>
+                    </Card>
+
                     <Card>
                         <CardTitle>
                             <h3>MDF</h3>

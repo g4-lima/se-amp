@@ -22,24 +22,24 @@ export const Conteiner = styled.div`
     justify-content: space-between;
 
     z-index: 1;
-`;
 
-export const Logo = styled.div`
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-left: 2vw;
+    .logo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 2vw;
 
-    img {
-        max-width: 7.2vw;
-        max-height: 8.2vh;
-        box-shadow: none;
-    }
+        img {
+            max-width: 7.2vw;
+            max-height: 8.2vh;
+            box-shadow: none;
+        }
 
-    img + img {
-        max-width: 10.8vw;
-        max-height: 12vh;
-        box-shadow: none;
+        img + img {
+            max-width: 10.8vw;
+            max-height: 12vh;
+            box-shadow: none;
+        }
     }
 `;
 

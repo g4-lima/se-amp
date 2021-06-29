@@ -7,16 +7,11 @@ import LogoSE from '../../assets/images/logos/LogoSE-removebg.png';
 import ptbr from '../../assets/images/logos/ptbr.png';
 import ing from '../../assets/images/logos/ing.png';
 
-import {
-    Conteiner,
-    Logo,
-    Links,
-    SearchBar,
-    ChangeLanguage,
-    Flags,
-} from './styles';
+import { Conteiner, Links, SearchBar, ChangeLanguage, Flags } from './styles';
 
 const Header: React.FC = () => {
+    const goTo = () => window.scrollTo(0, 1020);
+
     return (
         <>
             <ChangeLanguage>
@@ -26,12 +21,14 @@ const Header: React.FC = () => {
                 </Flags>
             </ChangeLanguage>
             <Conteiner>
-                <Logo>
+                <Link to="/" className="logo">
                     <img src={LogoSE} alt="Logo SE" />
                     <img src={LogoAMP} alt="Logo AMP" />
-                </Logo>
+                </Link>
                 <Links>
-                    <a href="/">Indústrias</a>
+                    <Link to="/" onClick={goTo}>
+                        Indústrias
+                    </Link>
                     <a href="/">Produtos</a>
                     <Link to="/about">Sobre</Link>
                     <Link to="/contact">Contato</Link>
