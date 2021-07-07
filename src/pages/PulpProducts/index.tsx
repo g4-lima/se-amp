@@ -1,13 +1,13 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { IoIosArrowForward } from 'react-icons/io';
 import { Link } from 'react-router-dom';
 
 import Header from '../../components/Header';
-import Footer from '../../components/Footer';
-import SideBar from '../../components/SideBar';
 import WhatsappButton from '../../components/WhatssappButton';
+import SideBar from '../../components/SideBar';
+import Footer from '../../components/Footer';
 
-import { ListPMProducts } from './Data';
+import { ListPulpProducts } from './data';
 
 import {
     Container,
@@ -17,17 +17,13 @@ import {
     ProductsCard,
 } from './styles';
 
-const ProductsPM: React.FC = () => {
-    useEffect(() => {
-        window.scrollTo(0, 0);
-    }, []);
-
+const PulpProducts: React.FC = () => {
     return (
         <>
             <Header />
             <WhatsappButton />
             <Container>
-                <SideBar>1</SideBar>
+                <SideBar>2</SideBar>
                 <Content>
                     <PageBar>
                         <p>Papel e Celulose</p>
@@ -35,7 +31,7 @@ const ProductsPM: React.FC = () => {
                         <p>Máquina de Papel</p>
                     </PageBar>
 
-                    {ListPMProducts.map(section => (
+                    {ListPulpProducts.map(section => (
                         <>
                             <ProductsGroup>
                                 <h2 key={section.id}>{section.name}</h2>
@@ -66,4 +62,4 @@ const ProductsPM: React.FC = () => {
     );
 };
 
-export default ProductsPM;
+export default PulpProducts;
