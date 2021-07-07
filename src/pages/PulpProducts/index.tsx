@@ -28,7 +28,7 @@ const PulpProducts: React.FC = () => {
                     <PageBar>
                         <p>Papel e Celulose</p>
                         <IoIosArrowForward size={20} color="#F22020" />
-                        <p>Máquina de Papel</p>
+                        <p>Celulose</p>
                     </PageBar>
 
                     {ListPulpProducts.map(section => (
