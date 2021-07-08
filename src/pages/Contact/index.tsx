@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useHistory } from 'react-router-dom';
 import { IoIosArrowBack, IoMdMail, IoMdCall } from 'react-icons/io';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
@@ -23,6 +23,10 @@ const Contact: React.FC = () => {
         iconAnchor: [29, 68],
         popupAnchor: [8, -60],
     });
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     return (
         <>

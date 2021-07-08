@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 
 import Header from '../../components/Header';
@@ -71,14 +71,14 @@ const Home: React.FC = () => {
                 <h1>Indústrias</h1>
                 <IndustryTitle>Papel e Celulose</IndustryTitle>
                 <Row>
-                    <Card>
+                    <Link to="PulpProducts" className="card">
                         <CardTitle>
                             <h3>Celulose</h3>
                         </CardTitle>
                         <CardImage>
                             <img src={celulose} alt="Fabrica Celulose" />
                         </CardImage>
-                    </Card>
+                    </Link>
                     <Link to="productsPM" className="card">
                         <CardTitle>
                             <h3>Máquina de Papel</h3>
@@ -87,14 +87,14 @@ const Home: React.FC = () => {
                             <img src={maquinaDePapel} alt="Máquina de Papel" />
                         </CardImage>
                     </Link>
-                    <Card>
+                    <Link to="ConvertionProducts" className="card">
                         <CardTitle>
                             <h3>Conversão</h3>
                         </CardTitle>
                         <CardImage>
                             <img src={conversao} alt="Conversão" />
                         </CardImage>
-                    </Card>
+                    </Link>
                 </Row>
 
                 <IndustryTitle>Biomassa</IndustryTitle>

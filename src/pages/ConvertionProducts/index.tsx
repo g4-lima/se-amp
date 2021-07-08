@@ -2,12 +2,12 @@ import React, { useEffect } from 'react';
 import { IoIosArrowForward } from 'react-icons/io';
 import { Link } from 'react-router-dom';
 
-import Header from '../../components/Header';
-import WhatsappButton from '../../components/WhatssappButton';
-import SideBar from '../../components/SideBar';
 import Footer from '../../components/Footer';
+import Header from '../../components/Header';
+import SideBar from '../../components/SideBar';
+import WhatsappButton from '../../components/WhatssappButton';
 
-import { ListPulpProducts } from './data';
+import { ListConvertionProducts } from './data';
 
 import {
     Container,
@@ -17,7 +17,7 @@ import {
     ProductsCard,
 } from './styles';
 
-const PulpProducts: React.FC = () => {
+const ConvertionProducts: React.FC = () => {
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
@@ -27,15 +27,15 @@ const PulpProducts: React.FC = () => {
             <Header />
             <WhatsappButton />
             <Container>
-                <SideBar>2</SideBar>
+                <SideBar>3</SideBar>
                 <Content>
                     <PageBar>
                         <p>Papel e Celulose</p>
                         <IoIosArrowForward size={20} color="#F22020" />
-                        <p>Celulose</p>
+                        <p>Conversão</p>
                     </PageBar>
 
-                    {ListPulpProducts.map(section => (
+                    {ListConvertionProducts.map(section => (
                         <>
                             <ProductsGroup>
                                 <h2 key={section.id}>{section.name}</h2>
@@ -66,4 +66,4 @@ const PulpProducts: React.FC = () => {
     );
 };
 
-export default PulpProducts;
+export default ConvertionProducts;

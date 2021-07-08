@@ -6,6 +6,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import ProductsPM from './pages/ProductsPM';
 import PulpProducts from './pages/PulpProducts';
+import ConvertionProducts from './pages/ConvertionProducts';
 
 const Routes: React.FC = () => {
     return (
@@ -16,6 +17,11 @@ const Routes: React.FC = () => {
                 <Route path="/contact" exact component={Contact} />
                 <Route path="/ProductsPM" exact component={ProductsPM} />
                 <Route path="/PulpProducts" exact component={PulpProducts} />
+                <Route
+                    path="/ConvertionProducts"
+                    exact
+                    component={ConvertionProducts}
+                />
             </Switch>
         </BrowserRouter>
     );
