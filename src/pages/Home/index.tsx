@@ -99,14 +99,14 @@ const Home: React.FC = () => {
 
                 <IndustryTitle>Biomassa</IndustryTitle>
                 <Row>
-                    <Card>
+                    <Link to="WoodChipsProducts" className="card">
                         <CardTitle>
                             <h3>Cavacos de Madeira</h3>
                         </CardTitle>
                         <CardImage>
                             <img src={biomassa} alt="Peças para picador" />
                         </CardImage>
-                    </Card>
+                    </Link>
                     <Card>
                         <CardTitle>
                             <h3>Pellets</h3>

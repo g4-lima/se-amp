@@ -18,4 +18,9 @@ export const List = [
         id: 3,
         sections: [...ListConvertionProducts],
     },
+    {
+        category: 'Cavacos de Madeira',
+        id: 4,
+        sections: [...ListConvertionProducts],
+    },
 ];

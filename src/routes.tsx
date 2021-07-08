@@ -7,6 +7,7 @@ import Contact from './pages/Contact';
 import ProductsPM from './pages/ProductsPM';
 import PulpProducts from './pages/PulpProducts';
 import ConvertionProducts from './pages/ConvertionProducts';
+import WoodChipsProducts from './pages/WoodChipsProducts';
 
 const Routes: React.FC = () => {
     return (
@@ -21,6 +22,11 @@ const Routes: React.FC = () => {
                     path="/ConvertionProducts"
                     exact
                     component={ConvertionProducts}
+                />
+                <Route
+                    path="/WoodChipsProducts"
+                    exact
+                    component={WoodChipsProducts}
                 />
             </Switch>
         </BrowserRouter>
