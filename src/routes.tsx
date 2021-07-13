@@ -8,6 +8,7 @@ import ProductsPM from './pages/ProductsPM';
 import PulpProducts from './pages/PulpProducts';
 import ConvertionProducts from './pages/ConvertionProducts';
 import WoodChipsProducts from './pages/WoodChipsProducts';
+import PelletProducts from './pages/PelletProducts';
 
 const Routes: React.FC = () => {
     return (
@@ -18,6 +19,11 @@ const Routes: React.FC = () => {
                 <Route path="/contact" exact component={Contact} />
                 <Route path="/ProductsPM" exact component={ProductsPM} />
                 <Route path="/PulpProducts" exact component={PulpProducts} />
+                <Route
+                    path="/PelletProducts"
+                    exact
+                    component={PelletProducts}
+                />
                 <Route
                     path="/ConvertionProducts"
                     exact

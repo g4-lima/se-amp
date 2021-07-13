@@ -7,7 +7,7 @@ import Header from '../../components/Header';
 import SideBar from '../../components/SideBar';
 import WhatsappButton from '../../components/WhatssappButton';
 
-import { ListWoodChipsProducts } from './data';
+import { ListPelletProducts } from './data';
 
 import {
     Container,
@@ -17,7 +17,7 @@ import {
     ProductsCard,
 } from './styles';
 
-const WoodChipsProducts: React.FC = () => {
+const PelletProducts: React.FC = () => {
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
@@ -27,15 +27,15 @@ const WoodChipsProducts: React.FC = () => {
             <Header />
             <WhatsappButton />
             <Container>
-                <SideBar>4</SideBar>
+                <SideBar>5</SideBar>
                 <Content>
                     <PageBar>
                         <p>Biomassa</p>
                         <IoIosArrowForward size={20} color="#F22020" />
-                        <p>Cavacos de Madeira</p>
+                        <p>Pellets</p>
                     </PageBar>
 
-                    {ListWoodChipsProducts.map(section => (
+                    {ListPelletProducts.map(section => (
                         <>
                             <ProductsGroup>
                                 <h2 key={section.id}>{section.name}</h2>
@@ -66,4 +66,4 @@ const WoodChipsProducts: React.FC = () => {
     );
 };
 
-export default WoodChipsProducts;
+export default PelletProducts;

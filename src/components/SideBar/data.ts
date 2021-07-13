@@ -1,6 +1,8 @@
 import { ListPMProducts } from '../../pages/ProductsPM/Data';
 import { ListPulpProducts } from '../../pages/PulpProducts/data';
 import { ListConvertionProducts } from '../../pages/ConvertionProducts/data';
+import { ListWoodChipsProducts } from '../../pages/WoodChipsProducts/data';
+import { ListPelletProducts } from '../../pages/PelletProducts/data';
 
 export const List = [
     {
@@ -21,6 +23,11 @@ export const List = [
     {
         category: 'Cavacos de Madeira',
         id: 4,
-        sections: [...ListConvertionProducts],
+        sections: [...ListWoodChipsProducts],
+    },
+    {
+        category: 'Pellets',
+        id: 5,
+        sections: [...ListPelletProducts],
     },
 ];

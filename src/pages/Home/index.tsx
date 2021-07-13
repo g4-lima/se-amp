@@ -107,14 +107,14 @@ const Home: React.FC = () => {
                             <img src={biomassa} alt="Peças para picador" />
                         </CardImage>
                     </Link>
-                    <Card>
+                    <Link to="PelletProducts" className="card">
                         <CardTitle>
                             <h3>Pellets</h3>
                         </CardTitle>
                         <CardImage>
                             <img src={pellets} alt="Pellets" />
                         </CardImage>
-                    </Card>
+                    </Link>
                 </Row>
 
                 <IndustryTitle>Outras Indústrias</IndustryTitle>

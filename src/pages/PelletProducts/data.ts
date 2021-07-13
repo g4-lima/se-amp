@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 /* eslint-disable global-require */
-export const ListWoodChipsProducts = [
+export const ListPelletProducts = [
     {
         name: 'Picadores',
         id: 1,
