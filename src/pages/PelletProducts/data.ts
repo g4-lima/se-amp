@@ -2,53 +2,42 @@
 /* eslint-disable global-require */
 export const ListPelletProducts = [
     {
-        name: 'Picadores',
+        name: 'Pelletizadora',
         id: 1,
         products: [
             {
                 id: 1,
-                name: 'Facas',
+                name: 'Feller Teeth',
                 img: require('../../assets/images/PM/pulper.png').default,
             },
             {
                 id: 2,
-                name: 'Contra Facas',
+                name: 'Matrizes',
                 img: require('../../assets/images/PM/cleaner.png').default,
             },
             {
                 id: 3,
-                name: 'Réguas de Desgaste',
+                name: 'Eixo Principal',
                 img: require('../../assets/images/PM/cleaner.png').default,
             },
             {
                 id: 4,
-                name: 'Segmentos',
+                name: 'Eixo Oco',
                 img: require('../../assets/images/PM/cleaner.png').default,
             },
             {
                 id: 5,
-                name: 'Grampos',
+                name: 'Flange de Vedação',
                 img: require('../../assets/images/PM/cleaner.png').default,
             },
             {
                 id: 6,
-                name: 'Suporte de Facas',
+                name: 'Engrenagem',
                 img: require('../../assets/images/PM/cleaner.png').default,
             },
-        ],
-    },
-    {
-        name: 'Pátio de Madeira',
-        id: 2,
-        products: [
             {
-                id: 1,
-                name: 'Rosca Trasnportadora',
-                img: require('../../assets/images/PM/pulper.png').default,
-            },
-            {
-                id: 2,
-                name: 'Rolos Transportadores',
+                id: 7,
+                name: 'Eixo Pinhão',
                 img: require('../../assets/images/PM/cleaner.png').default,
             },
         ],
