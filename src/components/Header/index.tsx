@@ -10,7 +10,9 @@ import ing from '../../assets/images/logos/ing.png';
 import { Conteiner, Links, SearchBar, ChangeLanguage, Flags } from './styles';
 
 const Header: React.FC = () => {
-    const goTo = () => window.scrollTo(0, 1020);
+    const goTo = () => {
+        window.scrollTo({ top: 1020, left: 0, behavior: 'smooth' });
+    };
 
     return (
         <>
@@ -26,7 +28,7 @@ const Header: React.FC = () => {
                     <img src={LogoAMP} alt="Logo AMP" />
                 </Link>
                 <Links>
-                    <Link to="/" onClick={goTo}>
+                    <Link to="/" onClick={() => goTo()}>
                         Indústrias
                     </Link>
                     <a href="/">Produtos</a>
