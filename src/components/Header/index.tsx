@@ -1,5 +1,7 @@
+/* eslint-disable @typescript-eslint/explicit-module-boundary-types */
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useHistory } from 'react-router-dom';
 import { IoMdSearch } from 'react-icons/io';
 
 import LogoAMP from '../../assets/images/logos/LogoAMP-removebg.png';
@@ -9,9 +11,23 @@ import ing from '../../assets/images/logos/ing.png';
 
 import { Conteiner, Links, SearchBar, ChangeLanguage, Flags } from './styles';
 
-const Header: React.FC = () => {
-    const goTo = () => {
-        window.scrollTo({ top: 1020, left: 0, behavior: 'smooth' });
+interface Irefs {
+    // eslint-disable-next-line react/require-default-props
+    myRef?: any;
+}
+
+const Header = (props: Irefs) => {
+    const history = useHistory();
+
+    const industry = () => {
+        props.myRef.current.scrollIntoView();
+    };
+
+    const goTo = async () => {
+        await history.push('/');
+        console.log(props);
+        window.scrollTo({ top: 1000, behavior: 'smooth' });
+        // industry();
     };
 
     return (

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { Link } from 'react-router-dom';
 
 import Header from '../../components/Header';
@@ -34,9 +34,11 @@ import {
 } from './styles';
 
 const Home: React.FC = () => {
+    const myRef = useRef(null);
+
     return (
         <>
-            <Header />
+            <Header myRef={myRef} />
             <BackgroundImage>
                 <img src={BgGears} alt="Background Engrenagens" />
                 <TextBox>
@@ -68,7 +70,7 @@ const Home: React.FC = () => {
             </AboutUsBox>
 
             <Industries>
-                <h1>Indústrias</h1>
+                <h1 ref={myRef}>Indústrias</h1>
                 <IndustryTitle>Papel e Celulose</IndustryTitle>
                 <Row>
                     <Link to="PulpProducts" className="card">
