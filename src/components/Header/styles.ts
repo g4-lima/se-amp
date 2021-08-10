@@ -57,14 +57,12 @@ export const Links = styled.div`
         font-family: Montserrat;
         font-style: normal;
         font-weight: bold;
-        font-size: 1.1vw;
+        font-size: 1vw;
 
         color: #808080;
 
         &:hover {
             color: ${shade(0.4, '#808080')};
-            font-size: 1.11vw;
-            font-weight: bold;
         }
     }
 `;

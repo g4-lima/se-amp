@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
                     <p>Copyright © 2021</p>
                 </Names>
                 <Contacts>
-                    <p>amp@aftermarketpartner.com</p>
+                    <p>amp@aftermarketpasrtner.com</p>
                     <p>19 3305 2372 | 3305 2382</p>
                 </Contacts>
             </InfoBox>

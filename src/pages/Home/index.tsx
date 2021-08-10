@@ -38,7 +38,7 @@ const Home: React.FC = () => {
 
     return (
         <>
-            <Header myRef={myRef} />
+            <Header />
             <BackgroundImage>
                 <img src={BgGears} alt="Background Engrenagens" />
                 <TextBox>

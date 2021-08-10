@@ -11,21 +11,20 @@ import ing from '../../assets/images/logos/ing.png';
 
 import { Conteiner, Links, SearchBar, ChangeLanguage, Flags } from './styles';
 
-interface Irefs {
-    // eslint-disable-next-line react/require-default-props
-    myRef?: any;
-}
+// interface Irefs {
+// eslint-disable-next-line react/require-default-props
+// myRef?: any;
+// }
 
-const Header = (props: Irefs) => {
+const Header = () => {
     const history = useHistory();
 
-    const industry = () => {
-        props.myRef.current.scrollIntoView();
-    };
+    // const industry = () => {
+    //     props.myRef.current.scrollIntoView();
+    // };
 
     const goTo = async () => {
         await history.push('/');
-        console.log(props);
         window.scrollTo({ top: 1000, behavior: 'smooth' });
         // industry();
     };

@@ -73,6 +73,7 @@ export const ProductsCard = styled.div`
         height: 25.2vh;
         /* min-height: 150px;
         max-height: 170px; */
+        max-height: 200px;
 
         background: #f9f9f9;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);

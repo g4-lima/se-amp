@@ -8,47 +8,53 @@ export const ListConvertionProducts = [
             {
                 id: 1,
                 name: 'Facas de Carbeto',
-                img: require('../../assets/images/PM/pulper.png').default,
+                img: require('../../assets/images/convertion/TCKnife.png')
+                    .default,
             },
             {
                 id: 2,
                 name: 'Rebolos',
-                img: require('../../assets/images/PM/cleaner.png').default,
+                img: require('../../assets/images/convertion/gw.png').default,
             },
             {
                 id: 3,
                 name: 'Lonas',
-                img: require('../../assets/images/PM/cleaner.png').default,
+                img: require('../../assets/images/convertion/belt.png').default,
             },
             {
                 id: 4,
                 name: 'Facões',
-                img: require('../../assets/images/PM/cleaner.png').default,
+                img: require('../../assets/images/convertion/straightKnife.png')
+                    .default,
             },
             {
                 id: 5,
                 name: 'Cilindros',
-                img: require('../../assets/images/PM/cleaner.png').default,
+                img: require('../../assets/images/convertion/cilinder.png')
+                    .default,
             },
             {
                 id: 6,
                 name: 'Pente Guia',
-                img: require('../../assets/images/PM/cleaner.png').default,
+                img: require('../../assets/images/convertion/finguerGuide.png')
+                    .default,
             },
             {
                 id: 7,
                 name: 'No Crush',
-                img: require('../../assets/images/PM/cleaner.png').default,
+                img: require('../../assets/images/convertion/noCrush.png')
+                    .default,
             },
             {
                 id: 8,
                 name: 'Apalpadores',
-                img: require('../../assets/images/PM/cleaner.png').default,
+                img: require('../../assets/images/convertion/wireControl.png')
+                    .default,
             },
             {
                 id: 9,
                 name: 'Wick de Lubrificação',
-                img: require('../../assets/images/PM/cleaner.png').default,
+                img: require('../../assets/images/convertion/wick.png').default,
             },
         ],
     },
