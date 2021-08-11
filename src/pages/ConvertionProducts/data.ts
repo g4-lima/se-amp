@@ -65,22 +65,26 @@ export const ListConvertionProducts = [
             {
                 id: 1,
                 name: 'Facas',
-                img: require('../../assets/images/PM/ceramica.png').default,
+                img: require('../../assets/images/convertion/printerKnife.png')
+                    .default,
             },
             {
                 id: 2,
                 name: 'Lâminas Raspadoras',
-                img: require('../../assets/images/PM/feltro.png').default,
+                img: require('../../assets/images/convertion/printerScraper.png')
+                    .default,
             },
             {
                 id: 3,
                 name: 'Mantas',
-                img: require('../../assets/images/PM/bicos.png').default,
+                img: require('../../assets/images/convertion/anvilCover.png')
+                    .default,
             },
             {
                 id: 4,
                 name: 'Alimentadores',
-                img: require('../../assets/images/PM/raspas.png').default,
+                img: require('../../assets/images/convertion/printerFeeder.png')
+                    .default,
             },
         ],
     },
@@ -91,27 +95,32 @@ export const ListConvertionProducts = [
             {
                 id: 1,
                 name: 'Disco Orbital',
-                img: require('../../assets/images/PM/ceramica.png').default,
+                img: require('../../assets/images/convertion/logSaw.png')
+                    .default,
             },
             {
                 id: 2,
                 name: 'Rebolos',
-                img: require('../../assets/images/PM/feltro.png').default,
+                img: require('../../assets/images/convertion/tissueGW.png')
+                    .default,
             },
             {
                 id: 3,
                 name: 'Facas Retas',
-                img: require('../../assets/images/PM/feltro.png').default,
+                img: require('../../assets/images/convertion/tissueKnives.png')
+                    .default,
             },
             {
                 id: 4,
                 name: 'Facas Rebobinadeira',
-                img: require('../../assets/images/PM/feltro.png').default,
+                img: require('../../assets/images/convertion/circularKnife.png')
+                    .default,
             },
             {
                 id: 5,
                 name: 'Sobressalentes',
-                img: require('../../assets/images/PM/feltro.png').default,
+                img: require('../../assets/images/convertion/spareParts.png')
+                    .default,
             },
         ],
     },
@@ -122,12 +131,13 @@ export const ListConvertionProducts = [
             {
                 id: 1,
                 name: 'Facas',
-                img: require('../../assets/images/PM/ceramica.png').default,
+                img: require('../../assets/images/convertion/plotterKnife.png')
+                    .default,
             },
             {
                 id: 2,
                 name: 'Feltos',
-                img: require('../../assets/images/PM/feltro.png').default,
+                img: require('../../assets/images/convertion/felt.png').default,
             },
         ],
     },
@@ -138,17 +148,20 @@ export const ListConvertionProducts = [
             {
                 id: 1,
                 name: 'Transporte',
-                img: require('../../assets/images/PM/ceramica.png').default,
+                img: require('../../assets/images/convertion/esteira.png')
+                    .default,
             },
             {
                 id: 2,
                 name: 'Paletização e Embalagem',
-                img: require('../../assets/images/PM/feltro.png').default,
+                img: require('../../assets/images/convertion/pallet.png')
+                    .default,
             },
             {
                 id: 3,
                 name: 'Manuseio de Rolos',
-                img: require('../../assets/images/PM/feltro.png').default,
+                img: require('../../assets/images/convertion/rolos.png')
+                    .default,
             },
         ],
     },
