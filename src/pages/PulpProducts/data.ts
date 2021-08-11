@@ -8,12 +8,13 @@ export const ListPulpProducts = [
             {
                 id: 1,
                 name: 'Peças para picadores',
-                img: require('../../assets/images/PM/pulper.png').default,
+                img: require('../../assets/images/celulose/chipperParts.png')
+                    .default,
             },
             {
                 id: 2,
                 name: 'Transporte',
-                img: require('../../assets/images/PM/cleaner.png').default,
+                img: require('../../assets/images/celulose/rosca.png').default,
             },
         ],
     },
@@ -24,48 +25,45 @@ export const ListPulpProducts = [
             {
                 id: 1,
                 name: 'Depuradores',
-                img: require('../../assets/images/PM/ceramica.png').default,
+                img: require('../../assets/images/celulose/basket.png').default,
             },
             {
                 id: 2,
                 name: 'Cleaners',
-                img: require('../../assets/images/PM/feltro.png').default,
+                img: require('../../assets/images/celulose/cleaner.png')
+                    .default,
             },
-            {
-                id: 3,
-                name: 'Lavadores',
-                img: require('../../assets/images/PM/bicos.png').default,
-            },
+            // {
+            //     id: 3,
+            //     name: 'Lavadores',
+            // },
             {
                 id: 4,
                 name: 'Válvulas',
-                img: require('../../assets/images/PM/raspas.png').default,
+                img: require('../../assets/images/celulose/valve.png').default,
             },
             {
                 id: 5,
                 name: 'Bombas',
-                img: require('../../assets/images/PM/formaredonda.png').default,
+                img: require('../../assets/images/celulose/pump.png').default,
             },
             {
                 id: 6,
                 name: 'Filtros',
-                img: require('../../assets/images/PM/formaredonda.png').default,
+                img: require('../../assets/images/celulose/filter.png').default,
             },
-            {
-                id: 7,
-                name: 'Cortadeira e Embalagem',
-                img: require('../../assets/images/PM/formaredonda.png').default,
-            },
-            {
-                id: 8,
-                name: 'Caixa de Entrada',
-                img: require('../../assets/images/PM/formaredonda.png').default,
-            },
-            {
-                id: 9,
-                name: 'Equipamentos',
-                img: require('../../assets/images/PM/formaredonda.png').default,
-            },
+            // {
+            //     id: 7,
+            //     name: 'Cortadeira e Embalagem',
+            // },
+            // {
+            //     id: 8,
+            //     name: 'Caixa de Entrada',
+            // },
+            // {
+            //     id: 9,
+            //     name: 'Equipamentos',
+            // },
         ],
     },
 ];

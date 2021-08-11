@@ -8,32 +8,14 @@ export const ListWoodChipsProducts = [
             {
                 id: 1,
                 name: 'Facas',
-                img: require('../../assets/images/PM/pulper.png').default,
+                img: require('../../assets/images/biomass/chipperKnife.png')
+                    .default,
             },
             {
                 id: 2,
-                name: 'Contra Facas',
-                img: require('../../assets/images/PM/cleaner.png').default,
-            },
-            {
-                id: 3,
-                name: 'Réguas de Desgaste',
-                img: require('../../assets/images/PM/cleaner.png').default,
-            },
-            {
-                id: 4,
-                name: 'Segmentos',
-                img: require('../../assets/images/PM/cleaner.png').default,
-            },
-            {
-                id: 5,
-                name: 'Grampos',
-                img: require('../../assets/images/PM/cleaner.png').default,
-            },
-            {
-                id: 6,
-                name: 'Suporte de Facas',
-                img: require('../../assets/images/PM/cleaner.png').default,
+                name: 'Peças de Desgaste',
+                img: require('../../assets/images/biomass/chipperParts.png')
+                    .default,
             },
         ],
     },
@@ -44,12 +26,12 @@ export const ListWoodChipsProducts = [
             {
                 id: 1,
                 name: 'Rosca Trasnportadora',
-                img: require('../../assets/images/PM/pulper.png').default,
+                img: require('../../assets/images/biomass/rosca.png').default,
             },
             {
                 id: 2,
                 name: 'Rolos Transportadores',
-                img: require('../../assets/images/PM/cleaner.png').default,
+                img: require('../../assets/images/biomass/rolo.png').default,
             },
         ],
     },

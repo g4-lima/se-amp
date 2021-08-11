@@ -128,6 +128,9 @@ const Home: React.FC = () => {
                         <CardImage>
                             <img src={plastico} alt="Plástico" />
                         </CardImage>
+                        <BoxInfo>
+                            <p>EM BREVE</p>
+                        </BoxInfo>
                     </Card>
 
                     <Card>
