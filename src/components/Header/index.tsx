@@ -46,7 +46,7 @@ const Header = () => {
                     <Link to="/" onClick={() => goTo()}>
                         Indústrias
                     </Link>
-                    <a href="/">Produtos</a>
+                    {/* <a href="/">Produtos</a> */}
                     <Link to="/about">Sobre</Link>
                     <Link to="/contact">Contato</Link>
                 </Links>

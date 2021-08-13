@@ -48,7 +48,7 @@ export const Links = styled.div`
     flex-direction: row;
     align-items: center;
 
-    margin-left: -28vw;
+    margin-left: -32vw;
 
     a {
         margin-right: 2vw;
